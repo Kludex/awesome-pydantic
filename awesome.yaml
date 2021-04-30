@@ -30,3 +30,7 @@ repositories:
   - name: Transformers
     repo: https://github.com/huggingface/transformers
     description: State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
+
+  - name: Flask Pydantic
+    repo: https://github.com/bauerji/flask_pydantic
+    description: Flask extension for integration of the awesome pydantic package with Flask.
