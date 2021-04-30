@@ -26,3 +26,7 @@ repositories:
   - name: Strawberry GraphQL
     repo: https://github.com/strawberry-graphql/strawberry
     description: Python GraphQL library based on dataclasses.
+
+  - name: Transformers
+    repo: https://github.com/huggingface/transformers
+    description: State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
