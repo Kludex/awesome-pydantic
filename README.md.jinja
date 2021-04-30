@@ -1,0 +1,9 @@
+# Awesome Pydantic [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
+
+> A curated list of awesome things related to [Pydantic](https://pydantic-docs.helpmanual.io/).
+
+{% for repository in repositories %}
+## [{{ repository.name }}]({{ repository.repo }}) - {{ repository.stars }} ✨
+
+{{ repository.description }}
+{% endfor %}

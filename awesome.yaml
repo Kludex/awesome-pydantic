@@ -1,0 +1,20 @@
+repositories:
+  - name: FastAPI
+    repo: https://github.com/tiangolo/fastapi
+    description: FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+
+  - name: spaCy
+    repo: https://github.com/explosion/spaCy
+    description: spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
+
+  - name: ray
+    repo: https://github.com/ray-project/ray
+    description: Ray provides a simple, universal API for building distributed applications.
+
+  - name: jina
+    repo: https://github.com/jina-ai/jina
+    description: Jina is geared towards building search systems for any kind of data, including text, images, audio, video and many more. With the modular design & multi-layer abstraction, you can leverage the efficient patterns to build the system by parts, or chaining them into a Flow for an end-to-end experience.
+
+  - name: FastMRI
+    repo: https://github.com/facebookresearch/fastMRI
+    description: fastMRI is a collaborative research project from Facebook AI Research (FAIR) and NYU Langone Health to investigate the use of AI to make MRI scans faster.
