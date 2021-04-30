@@ -22,3 +22,7 @@ repositories:
   - name: ODMantic
     repo: https://github.com/art049/odmantic
     description: Asynchronous ODM(Object Document Mapper) for MongoDB based on standard python type hints. It's built on top of pydantic for model definition and validation.
+
+  - name: Strawberry GraphQL
+    repo: https://github.com/strawberry-graphql/strawberry
+    description: Python GraphQL library based on dataclasses.
