@@ -18,3 +18,7 @@ repositories:
   - name: FastMRI
     repo: https://github.com/facebookresearch/fastMRI
     description: fastMRI is a collaborative research project from Facebook AI Research (FAIR) and NYU Langone Health to investigate the use of AI to make MRI scans faster.
+
+  - name: ODMantic
+    repo: https://github.com/art049/odmantic
+    description: Asynchronous ODM(Object Document Mapper) for MongoDB based on standard python type hints. It's built on top of pydantic for model definition and validation.
