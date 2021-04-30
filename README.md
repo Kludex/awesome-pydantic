@@ -6,11 +6,13 @@ These packages have not been vetted or approved by the pydantic team.
 
 Feel free to add your own package here by creating a PR. You just need to add an entry to the [awesome.yaml](./awesome.yaml) file.
 
+
+
 ## [Transformers](https://github.com/huggingface/transformers) - 45375 ✨
 
 State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
 
-## [FastAPI](https://github.com/tiangolo/fastapi) - 30428 ✨
+## [FastAPI](https://github.com/tiangolo/fastapi) - 30429 ✨
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 
@@ -37,3 +39,7 @@ fastMRI is a collaborative research project from Facebook AI Research (FAIR) and
 ## [ODMantic](https://github.com/art049/odmantic) - 282 ✨
 
 Asynchronous ODM(Object Document Mapper) for MongoDB based on standard python type hints. It's built on top of pydantic for model definition and validation.
+
+## [Flask Pydantic](https://github.com/bauerji/flask_pydantic) - 103 ✨
+
+Flask extension for integration of the awesome pydantic package with Flask.
