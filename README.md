@@ -3,6 +3,10 @@
 > A curated list of awesome things related to [Pydantic](https://pydantic-docs.helpmanual.io/).
 
 
+## [Transformers](https://github.com/huggingface/transformers) - 45375 ✨
+
+State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
+
 ## [FastAPI](https://github.com/tiangolo/fastapi) - 30428 ✨
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
