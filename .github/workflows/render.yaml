@@ -1,6 +1,9 @@
 name: Render README
 
-on: [pull_request]
+on:
+  pull_request:
+    paths:
+      - "awesome.yaml"
 
 jobs:
   render:
