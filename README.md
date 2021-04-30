@@ -2,6 +2,9 @@
 
 > A curated list of awesome things related to [Pydantic](https://pydantic-docs.helpmanual.io/).
 
+These packages have not been vetted or approved by the pydantic team.
+
+Feel free to add your own package here by creating a PR. You just need to add an entry to the [awesome.yaml](./awesome.yaml) file.
 
 ## [Transformers](https://github.com/huggingface/transformers) - 45375 ✨
 
