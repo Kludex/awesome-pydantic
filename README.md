@@ -11,13 +11,17 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 
 spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
 
-## [ray](https://github.com/ray-project/ray) - 15781 ✨
+## [ray](https://github.com/ray-project/ray) - 15782 ✨
 
 Ray provides a simple, universal API for building distributed applications.
 
-## [jina](https://github.com/jina-ai/jina) - 3202 ✨
+## [jina](https://github.com/jina-ai/jina) - 3203 ✨
 
 Jina is geared towards building search systems for any kind of data, including text, images, audio, video and many more. With the modular design & multi-layer abstraction, you can leverage the efficient patterns to build the system by parts, or chaining them into a Flow for an end-to-end experience.
+
+## [Strawberry GraphQL](https://github.com/strawberry-graphql/strawberry) - 962 ✨
+
+Python GraphQL library based on dataclasses.
 
 ## [FastMRI](https://github.com/facebookresearch/fastMRI) - 631 ✨
 
