@@ -5,7 +5,7 @@ repositories:
 
   - name: Django Ninja
     repo: https://github.com/vitalik/django-ninja
-    description: Django + Pydantic = Fast, Async-ready, Openapi, type hints based framework for building APIs.
+    description: Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
 
   - name: spaCy
     repo: https://github.com/explosion/spaCy
