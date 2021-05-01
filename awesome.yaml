@@ -3,6 +3,10 @@ repositories:
     repo: https://github.com/tiangolo/fastapi
     description: FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 
+  - name: Django Ninja
+    repo: https://github.com/vitalik/django-ninja
+    description: Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
+
   - name: spaCy
     repo: https://github.com/explosion/spaCy
     description: spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
@@ -34,6 +38,10 @@ repositories:
   - name: Flask Pydantic
     repo: https://github.com/bauerji/flask_pydantic
     description: Flask extension for integration of the awesome pydantic package with Flask.
+
+  - name: SpecTree
+    repo: https://github.com/0b01001001/spectree
+    description: API spec validator and OpenAPI document generator for Python web frameworks (Flask, Falcon, Starlette). 
 
   - name: Ormar
     repo: https://github.com/collerek/ormar
