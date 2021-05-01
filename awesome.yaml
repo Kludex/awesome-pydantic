@@ -34,3 +34,9 @@ repositories:
   - name: Flask Pydantic
     repo: https://github.com/bauerji/flask_pydantic
     description: Flask extension for integration of the awesome pydantic package with Flask.
+
+  - name: Ormar
+    repo: https://github.com/collerek/ormar
+    description: Ormar is an async ORM that was written with fastapi in mind and uses pydantic validation. It bridges fastapi with pydantic, as Ormar models can be used directly in fastapi requests and responses so you are left with only one set of models to maintain. Alembic migrations included.
+
+  
