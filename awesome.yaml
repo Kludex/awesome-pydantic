@@ -41,8 +41,40 @@ repositories:
 
   - name: SpecTree
     repo: https://github.com/0b01001001/spectree
-    description: API spec validator and OpenAPI document generator for Python web frameworks (Flask, Falcon, Starlette). 
+    description: API spec validator and OpenAPI document generator for Python web frameworks (Flask, Falcon, Starlette).
 
   - name: Ormar
     repo: https://github.com/collerek/ormar
     description: Ormar is an async ORM that was written with FastAPI in mind and uses pydantic validation. It bridges FastAPI with pydantic, as ormar models can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.
+
+  - name: HttpRunner
+    repo: https://github.com/httprunner/httprunner
+    description: HttpRunner is a simple & elegant, yet powerful HTTP(S) testing framework.
+
+  - name: Opyrator
+    repo: https://github.com/ml-tooling/opyrator
+    description: Turns your machine learning code into microservices with web API, interactive GUI, and more.
+
+  - name: datamodel-code-generator
+    repo: https://github.com/koxudaxi/datamodel-code-generator
+    description: Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, and YAML data sources.
+
+  - name: Pydantic PyCharm Plugin
+    repo: https://github.com/koxudaxi/pydantic-pycharm-plugin
+    description: A JetBrains PyCharm plugin for pydantic.
+
+  - name: Djantic
+    repo: https://github.com/jordaneremieff/djantic
+    description: Pydantic model support for Django.
+
+  - name: Beanie
+    repo: https://github.com/roman-right/beanie
+    description: Beanie - is an Asynchronous Python object-document mapper (ODM) for MongoDB, based on Motor and Pydantic.
+
+  - name: Goodconf
+    repo: https://github.com/lincolnloop/goodconf
+    description: A thin wrapper over Pydantic's settings management. Allows you to define configuration variables and load them from environment or JSON/YAML file. Also generates initial configuration files and documentation for your defined configuration.
+
+  - name: erdantic
+    repo: https://github.com/drivendataorg/erdantic
+    description: Entity relationship diagrams for Python data model classes like Pydantic.
