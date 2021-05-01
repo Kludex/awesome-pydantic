@@ -28,6 +28,10 @@ Ray provides a simple, universal API for building distributed applications.
 
 Jina is geared towards building search systems for any kind of data, including text, images, audio, video and many more. With the modular design & multi-layer abstraction, you can leverage the efficient patterns to build the system by parts, or chaining them into a Flow for an end-to-end experience.
 
+## [Django Ninja](https://github.com/vitalik/django-ninja) - 1070 ✨
+
+Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
+
 ## [Strawberry GraphQL](https://github.com/strawberry-graphql/strawberry) - 962 ✨
 
 Python GraphQL library based on dataclasses.
