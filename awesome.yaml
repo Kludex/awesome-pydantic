@@ -34,3 +34,7 @@ repositories:
   - name: Flask Pydantic
     repo: https://github.com/bauerji/flask_pydantic
     description: Flask extension for integration of the awesome pydantic package with Flask.
+
+  - name: SpecTree
+    repo: https://github.com/0b01001001/spectree
+    description: API spec validator and OpenAPI document generator for Python web frameworks (Flask, Falcon, Starlette). 
