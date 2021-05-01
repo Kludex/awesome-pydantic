@@ -12,7 +12,7 @@ Feel free to add your own package here by creating a PR. You just need to add an
 
 State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
 
-## [FastAPI](https://github.com/tiangolo/fastapi) - 30443 ✨
+## [FastAPI](https://github.com/tiangolo/fastapi) - 30444 ✨
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 
@@ -43,6 +43,10 @@ fastMRI is a collaborative research project from Facebook AI Research (FAIR) and
 ## [ODMantic](https://github.com/art049/odmantic) - 283 ✨
 
 Asynchronous ODM(Object Document Mapper) for MongoDB based on standard python type hints. It's built on top of pydantic for model definition and validation.
+
+## [Ormar](https://github.com/collerek/ormar) - 213 ✨
+
+Ormar is an async ORM that was written with FastAPI in mind and uses pydantic validation. It bridges FastAPI with pydantic, as ormar models can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.
 
 ## [Flask Pydantic](https://github.com/bauerji/flask_pydantic) - 104 ✨
 
