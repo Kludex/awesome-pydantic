@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     output_path: str
     data_path: str
 
+
 settings = Settings()
 g = Github(os.getenv("GITHUB_TOKEN"))
 
@@ -53,6 +54,6 @@ def load_stars(data: RepositoriesData):
 if __name__ == "__main__":
     data = read_awesome()
     load_stars(data)
-    data.repositories = sorted(data.repositories, key=lambda x: -x.stars)
+    data.repositories.sort(key=lambda x: -x.stars)
     text_readme = render_readme(data)
     write_readme(text_readme)
