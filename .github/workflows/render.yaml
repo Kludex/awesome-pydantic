@@ -6,6 +6,8 @@ on:
       - "main"
     paths:
       - "awesome.yaml"
+  schedule:
+    - cron: "0 0 * * FRI"
 
 jobs:
   render:
