@@ -42,3 +42,7 @@ repositories:
   - name: SpecTree
     repo: https://github.com/0b01001001/spectree
     description: API spec validator and OpenAPI document generator for Python web frameworks (Flask, Falcon, Starlette). 
+
+  - name: Ormar
+    repo: https://github.com/collerek/ormar
+    description: Ormar is an async ORM that was written with FastAPI in mind and uses pydantic validation. It bridges FastAPI with pydantic, as ormar models can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.
