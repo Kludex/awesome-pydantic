@@ -78,3 +78,7 @@ repositories:
   - name: erdantic
     repo: https://github.com/drivendataorg/erdantic
     description: Entity relationship diagrams for Python data model classes like Pydantic.
+
+  - name: autodoc_pydantic
+    repo: https://github.com/mansenfranzen/autodoc_pydantic
+    description: Seamlessly integrate pydantic models in your Sphinx documentation.
