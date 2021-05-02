@@ -7,23 +7,23 @@ These packages have not been vetted or approved by the pydantic team.
 Feel free to add your own package here by creating a PR. You just need to add an entry to the [awesome.yaml](./awesome.yaml) file.
 
 
-## [Transformers](https://github.com/huggingface/transformers) - 45389 ✨
+## [Transformers](https://github.com/huggingface/transformers) - 45415 ✨
 
 State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
 
-## [FastAPI](https://github.com/tiangolo/fastapi) - 30446 ✨
+## [FastAPI](https://github.com/tiangolo/fastapi) - 30470 ✨
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 
-## [spaCy](https://github.com/explosion/spaCy) - 20320 ✨
+## [spaCy](https://github.com/explosion/spaCy) - 20323 ✨
 
 spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
 
-## [ray](https://github.com/ray-project/ray) - 15785 ✨
+## [ray](https://github.com/ray-project/ray) - 15790 ✨
 
 Ray provides a simple, universal API for building distributed applications.
 
-## [jina](https://github.com/jina-ai/jina) - 3207 ✨
+## [jina](https://github.com/jina-ai/jina) - 3217 ✨
 
 Jina is geared towards building search systems for any kind of data, including text, images, audio, video and many more. With the modular design & multi-layer abstraction, you can leverage the efficient patterns to build the system by parts, or chaining them into a Flow for an end-to-end experience.
 
@@ -31,11 +31,11 @@ Jina is geared towards building search systems for any kind of data, including t
 
 HttpRunner is a simple & elegant, yet powerful HTTP(S) testing framework.
 
-## [Opyrator](https://github.com/ml-tooling/opyrator) - 1790 ✨
+## [Opyrator](https://github.com/ml-tooling/opyrator) - 1799 ✨
 
 Turns your machine learning code into microservices with web API, interactive GUI, and more.
 
-## [Django Ninja](https://github.com/vitalik/django-ninja) - 1070 ✨
+## [Django Ninja](https://github.com/vitalik/django-ninja) - 1072 ✨
 
 Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
 
@@ -43,7 +43,7 @@ Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for b
 
 Python GraphQL library based on dataclasses.
 
-## [FastMRI](https://github.com/facebookresearch/fastMRI) - 631 ✨
+## [FastMRI](https://github.com/facebookresearch/fastMRI) - 632 ✨
 
 fastMRI is a collaborative research project from Facebook AI Research (FAIR) and NYU Langone Health to investigate the use of AI to make MRI scans faster.
 
@@ -63,15 +63,15 @@ Ormar is an async ORM that was written with FastAPI in mind and uses pydantic va
 
 A JetBrains PyCharm plugin for pydantic.
 
-## [Flask Pydantic](https://github.com/bauerji/flask_pydantic) - 105 ✨
+## [Flask Pydantic](https://github.com/bauerji/flask_pydantic) - 106 ✨
 
 Flask extension for integration of the awesome pydantic package with Flask.
 
-## [Djantic](https://github.com/jordaneremieff/djantic) - 104 ✨
+## [Djantic](https://github.com/jordaneremieff/djantic) - 105 ✨
 
 Pydantic model support for Django.
 
-## [Beanie](https://github.com/roman-right/beanie) - 103 ✨
+## [Beanie](https://github.com/roman-right/beanie) - 104 ✨
 
 Beanie - is an Asynchronous Python object-document mapper (ODM) for MongoDB, based on Motor and Pydantic.
 
@@ -83,6 +83,10 @@ API spec validator and OpenAPI document generator for Python web frameworks (Fla
 
 A thin wrapper over Pydantic's settings management. Allows you to define configuration variables and load them from environment or JSON/YAML file. Also generates initial configuration files and documentation for your defined configuration.
 
-## [erdantic](https://github.com/drivendataorg/erdantic) - 21 ✨
+## [erdantic](https://github.com/drivendataorg/erdantic) - 23 ✨
 
 Entity relationship diagrams for Python data model classes like Pydantic.
+
+## [autodoc_pydantic](https://github.com/mansenfranzen/autodoc_pydantic) - 8 ✨
+
+Seamlessly integrate pydantic models in your Sphinx documentation.
