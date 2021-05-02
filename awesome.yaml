@@ -81,4 +81,4 @@ repositories:
 
   - name: autodoc_pydantic
     repo: https://github.com/mansenfranzen/autodoc_pydantic
-    description: Seamlessly integrate pydantic models in your Sphinx documentation. 
+    description: Seamlessly integrate pydantic models in your Sphinx documentation.
