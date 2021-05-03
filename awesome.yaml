@@ -82,3 +82,7 @@ repositories:
   - name: autodoc_pydantic
     repo: https://github.com/mansenfranzen/autodoc_pydantic
     description: Seamlessly integrate pydantic models in your Sphinx documentation.
+
+  - name: jsf
+    repo: https://github.com/ghandic/jsf
+    description: Creates fake JSON files from a JSON schema.
