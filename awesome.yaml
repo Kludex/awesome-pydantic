@@ -86,3 +86,8 @@ repositories:
   - name: jsf
     repo: https://github.com/ghandic/jsf
     description: Creates fake JSON files from a JSON schema.
+
+  - name: Quart-Schema
+    repo: https://gitlab.com/pgjones/quart-schema
+    description: Quart-Schema is a Quart extension that provides schema validation and auto-generated API documentation.
+    
