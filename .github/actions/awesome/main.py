@@ -1,6 +1,6 @@
-import os
 from typing import List, Optional
 
+import requests
 import yaml
 from github import Github
 from jinja2 import Template
@@ -12,9 +12,12 @@ class Settings(BaseSettings):
     output_path: str
     data_path: str
 
+    GITLAB_TOKEN: str
+    GITHUB_TOKEN: str
+
 
 settings = Settings()
-g = Github(os.getenv("GITHUB_TOKEN"))
+g = Github(settings.GITHUB_TOKEN)
 
 
 class Repository(BaseModel):
@@ -47,8 +50,15 @@ def write_readme(text: str) -> None:
 
 def load_stars(data: RepositoriesData):
     for repository in data.repositories:
-        repo = g.get_repo(repository.repo.path.strip("/"))
-        repository.stars = repo.stargazers_count
+        if "github" in repository.repo.host:
+            repo = g.get_repo(repository.repo.path.strip("/"))
+            repository.stars = repo.stargazers_count
+        elif "gitlab" in repository.repo.host:
+            name = repository.repo.path.strip("/").replace("/", "%2F")
+            url = f"https://gitlab.com/api/v4/projects/{name}"
+            res = requests.get(url, params={"access_token": settings.GITLAB_TOKEN})
+            star_count = res.json()["star_count"]
+            repository.stars = star_count
 
 
 if __name__ == "__main__":
