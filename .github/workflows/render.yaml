@@ -9,7 +9,6 @@ on:
       - "awesome.yaml"
   schedule:
     - cron: "0 0 * * FRI"
-  workflow_dispatch:
 
 jobs:
   render:
@@ -19,3 +18,6 @@ jobs:
 
       - name: Render README
         uses: ./.github/actions/awesome
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
