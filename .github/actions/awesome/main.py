@@ -1,3 +1,4 @@
+import os
 from typing import List, Optional
 
 import requests
@@ -12,12 +13,15 @@ class Settings(BaseSettings):
     output_path: str
     data_path: str
 
-    GITLAB_TOKEN: str
-    GITHUB_TOKEN: str
+    github_token: str
+    gitlab_token: str
+
+    class Config:
+        case_sensitive = False
 
 
 settings = Settings()
-g = Github(settings.GITHUB_TOKEN)
+g = Github(settings.github_token)
 
 
 class Repository(BaseModel):
@@ -56,7 +60,7 @@ def load_stars(data: RepositoriesData):
         elif "gitlab" in repository.repo.host:
             name = repository.repo.path.strip("/").replace("/", "%2F")
             url = f"https://gitlab.com/api/v4/projects/{name}"
-            res = requests.get(url, params={"access_token": settings.GITLAB_TOKEN})
+            res = requests.get(url, params={"access_token": settings.gitlab_token})
             star_count = res.json()["star_count"]
             repository.stars = star_count
 
