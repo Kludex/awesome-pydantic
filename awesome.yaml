@@ -90,4 +90,8 @@ repositories:
   - name: Quart-Schema
     repo: https://gitlab.com/pgjones/quart-schema
     description: Quart-Schema is a Quart extension that provides schema validation and auto-generated API documentation.
+
+  - name: pydantic-i18n
+    repo: https://github.com/boardpack/pydantic-i18n
+    description: An extension to support an i18n for the pydantic error messages.
     
