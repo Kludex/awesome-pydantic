@@ -95,3 +95,6 @@ repositories:
     repo: https://github.com/boardpack/pydantic-i18n
     description: An extension to support an i18n for the pydantic error messages.
     
+  - name: pydantic-aioredis
+    repo: https://github.com/andrewthetechie/pydantic-aioredis
+    description: A simple Declarative ORM for Redis using Pydantic Models and aioredis
