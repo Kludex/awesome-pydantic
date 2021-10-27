@@ -98,3 +98,7 @@ repositories:
   - name: pydantic-aioredis
     repo: https://github.com/andrewthetechie/pydantic-aioredis
     description: A simple Declarative ORM for Redis using Pydantic Models and aioredis
+     
+  - name: ZenML
+    repo: https://github.com/zenml-io/zenml
+    description: MLOps framework to create reproducible ML pipelines for production machine learning.
