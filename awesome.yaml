@@ -102,3 +102,7 @@ repositories:
   - name: ZenML
     repo: https://github.com/zenml-io/zenml
     description: MLOps framework to create reproducible ML pipelines for production machine learning.
+    
+  - name: Pydantic-Factories
+    repo: https://github.com/Goldziher/pydantic-factories
+    description: Pydantic based factories to generate testing data.
