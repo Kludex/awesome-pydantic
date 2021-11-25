@@ -107,6 +107,6 @@ repositories:
     repo: https://github.com/Goldziher/pydantic-factories
     description: Pydantic based factories to generate testing data.
  
- - name: Mongox
+  - name: Mongox
     repo: https://github.com/aminalaee/mongox
     description: Familiar async MongoDB ODM based on Pydantic and Motor.
