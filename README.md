@@ -7,27 +7,27 @@ These packages have not been vetted or approved by the pydantic team.
 Feel free to add your own package here by creating a PR. You just need to add an entry to the [awesome.yaml](./awesome.yaml) file.
 
 
-## [Transformers](https://github.com/huggingface/transformers) - 54576 ✨
+## [Transformers](https://github.com/huggingface/transformers) - 54620 ✨
 
 State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
 
-## [FastAPI](https://github.com/tiangolo/fastapi) - 38691 ✨
+## [FastAPI](https://github.com/tiangolo/fastapi) - 38736 ✨
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 
-## [spaCy](https://github.com/explosion/spaCy) - 21806 ✨
+## [spaCy](https://github.com/explosion/spaCy) - 21812 ✨
 
 spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
 
-## [ray](https://github.com/ray-project/ray) - 18255 ✨
+## [ray](https://github.com/ray-project/ray) - 18272 ✨
 
 Ray provides a simple, universal API for building distributed applications.
 
-## [jina](https://github.com/jina-ai/jina) - 12270 ✨
+## [jina](https://github.com/jina-ai/jina) - 12285 ✨
 
 Jina is geared towards building search systems for any kind of data, including text, images, audio, video and many more. With the modular design & multi-layer abstraction, you can leverage the efficient patterns to build the system by parts, or chaining them into a Flow for an end-to-end experience.
 
-## [HttpRunner](https://github.com/httprunner/httprunner) - 2610 ✨
+## [HttpRunner](https://github.com/httprunner/httprunner) - 2611 ✨
 
 HttpRunner is a simple & elegant, yet powerful HTTP(S) testing framework.
 
@@ -39,11 +39,11 @@ Turns your machine learning code into microservices with web API, interactive GU
 
 Python GraphQL library based on dataclasses.
 
-## [Django Ninja](https://github.com/vitalik/django-ninja) - 1647 ✨
+## [Django Ninja](https://github.com/vitalik/django-ninja) - 1649 ✨
 
 Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
 
-## [ZenML](https://github.com/zenml-io/zenml) - 1381 ✨
+## [ZenML](https://github.com/zenml-io/zenml) - 1385 ✨
 
 MLOps framework to create reproducible ML pipelines for production machine learning.
 
@@ -51,11 +51,11 @@ MLOps framework to create reproducible ML pipelines for production machine learn
 
 fastMRI is a collaborative research project from Facebook AI Research (FAIR) and NYU Langone Health to investigate the use of AI to make MRI scans faster.
 
-## [Ormar](https://github.com/collerek/ormar) - 718 ✨
+## [Ormar](https://github.com/collerek/ormar) - 719 ✨
 
 Ormar is an async ORM that was written with FastAPI in mind and uses pydantic validation. It bridges FastAPI with pydantic, as ormar models can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.
 
-## [datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator) - 683 ✨
+## [datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator) - 685 ✨
 
 Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, and YAML data sources.
 
@@ -63,7 +63,7 @@ Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, and 
 
 Asynchronous ODM(Object Document Mapper) for MongoDB based on standard python type hints. It's built on top of pydantic for model definition and validation.
 
-## [Beanie](https://github.com/roman-right/beanie) - 319 ✨
+## [Beanie](https://github.com/roman-right/beanie) - 320 ✨
 
 Beanie - is an Asynchronous Python object-document mapper (ODM) for MongoDB, based on Motor and Pydantic.
 
@@ -71,7 +71,7 @@ Beanie - is an Asynchronous Python object-document mapper (ODM) for MongoDB, bas
 
 A JetBrains PyCharm plugin for pydantic.
 
-## [Djantic](https://github.com/jordaneremieff/djantic) - 197 ✨
+## [Djantic](https://github.com/jordaneremieff/djantic) - 199 ✨
 
 Pydantic model support for Django.
 
@@ -86,6 +86,10 @@ API spec validator and OpenAPI document generator for Python web frameworks (Fla
 ## [Goodconf](https://github.com/lincolnloop/goodconf) - 68 ✨
 
 A thin wrapper over Pydantic's settings management. Allows you to define configuration variables and load them from environment or JSON/YAML file. Also generates initial configuration files and documentation for your defined configuration.
+
+## [Mongox](https://github.com/aminalaee/mongox) - 58 ✨
+
+Familiar async MongoDB ODM based on Pydantic and Motor.
 
 ## [erdantic](https://github.com/drivendataorg/erdantic) - 52 ✨
 
@@ -103,6 +107,10 @@ Creates fake JSON files from a JSON schema.
 
 An extension to support an i18n for the pydantic error messages.
 
+## [Pydantic-Factories](https://github.com/Goldziher/pydantic-factories) - 15 ✨
+
+Pydantic based factories to generate testing data.
+
 ## [pydantic-aioredis](https://github.com/andrewthetechie/pydantic-aioredis) - 13 ✨
 
 A simple Declarative ORM for Redis using Pydantic Models and aioredis
@@ -110,7 +118,3 @@ A simple Declarative ORM for Redis using Pydantic Models and aioredis
 ## [Quart-Schema](https://gitlab.com/pgjones/quart-schema) - 10 ✨
 
 Quart-Schema is a Quart extension that provides schema validation and auto-generated API documentation.
-
-## [Pydantic-Factories](https://github.com/Goldziher/pydantic-factories) - 3 ✨
-
-Pydantic based factories to generate testing data.
