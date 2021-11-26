@@ -7,23 +7,23 @@ These packages have not been vetted or approved by the pydantic team.
 Feel free to add your own package here by creating a PR. You just need to add an entry to the [awesome.yaml](./awesome.yaml) file.
 
 
-## [Transformers](https://github.com/huggingface/transformers) - 54620 ✨
+## [Transformers](https://github.com/huggingface/transformers) - 54627 ✨
 
 State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
 
-## [FastAPI](https://github.com/tiangolo/fastapi) - 38736 ✨
+## [FastAPI](https://github.com/tiangolo/fastapi) - 38740 ✨
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 
-## [spaCy](https://github.com/explosion/spaCy) - 21812 ✨
+## [spaCy](https://github.com/explosion/spaCy) - 21815 ✨
 
 spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
 
-## [ray](https://github.com/ray-project/ray) - 18272 ✨
+## [ray](https://github.com/ray-project/ray) - 18274 ✨
 
 Ray provides a simple, universal API for building distributed applications.
 
-## [jina](https://github.com/jina-ai/jina) - 12285 ✨
+## [jina](https://github.com/jina-ai/jina) - 12289 ✨
 
 Jina is geared towards building search systems for any kind of data, including text, images, audio, video and many more. With the modular design & multi-layer abstraction, you can leverage the efficient patterns to build the system by parts, or chaining them into a Flow for an end-to-end experience.
 
@@ -59,11 +59,11 @@ Ormar is an async ORM that was written with FastAPI in mind and uses pydantic va
 
 Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, and YAML data sources.
 
-## [ODMantic](https://github.com/art049/odmantic) - 429 ✨
+## [ODMantic](https://github.com/art049/odmantic) - 430 ✨
 
 Asynchronous ODM(Object Document Mapper) for MongoDB based on standard python type hints. It's built on top of pydantic for model definition and validation.
 
-## [Beanie](https://github.com/roman-right/beanie) - 320 ✨
+## [Beanie](https://github.com/roman-right/beanie) - 322 ✨
 
 Beanie - is an Asynchronous Python object-document mapper (ODM) for MongoDB, based on Motor and Pydantic.
 
@@ -107,7 +107,7 @@ Creates fake JSON files from a JSON schema.
 
 An extension to support an i18n for the pydantic error messages.
 
-## [Pydantic-Factories](https://github.com/Goldziher/pydantic-factories) - 15 ✨
+## [Pydantic-Factories](https://github.com/Goldziher/pydantic-factories) - 18 ✨
 
 Pydantic based factories to generate testing data.
 
