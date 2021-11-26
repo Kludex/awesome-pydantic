@@ -110,3 +110,11 @@ repositories:
   - name: Mongox
     repo: https://github.com/aminalaee/mongox
     description: Familiar async MongoDB ODM based on Pydantic and Motor.
+  
+  - name: Piccolo
+    repo: https://github.com/piccolo-orm/piccolo
+    description: An async query builder and ORM, which can auto generate Pydantic models from database tables.
+  
+  - name: Piccolo Admin
+    repo: https://github.com/piccolo-orm/piccolo_admin
+    description: An admin interface powered by Pydantic. Automatically generate forms using Pydantic models.
