@@ -126,3 +126,7 @@ A simple Declarative ORM for Redis using Pydantic Models and aioredis
 ## [Quart-Schema](https://gitlab.com/pgjones/quart-schema) - 10 ✨
 
 Quart-Schema is a Quart extension that provides schema validation and auto-generated API documentation.
+
+## [Starlite](https://github.com/Goldziher/starlite) - 33 ✨
+
+Flexible, performant and extensible ASGI API framework
