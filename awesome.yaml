@@ -94,27 +94,31 @@ repositories:
   - name: pydantic-i18n
     repo: https://github.com/boardpack/pydantic-i18n
     description: An extension to support an i18n for the pydantic error messages.
-    
+
   - name: pydantic-aioredis
     repo: https://github.com/andrewthetechie/pydantic-aioredis
     description: A simple Declarative ORM for Redis using Pydantic Models and aioredis
-     
+
   - name: ZenML
     repo: https://github.com/zenml-io/zenml
     description: MLOps framework to create reproducible ML pipelines for production machine learning.
-    
+
   - name: Pydantic-Factories
     repo: https://github.com/Goldziher/pydantic-factories
     description: Pydantic based factories to generate testing data.
- 
+
   - name: Mongox
     repo: https://github.com/aminalaee/mongox
     description: Familiar async MongoDB ODM based on Pydantic and Motor.
-  
+
   - name: Piccolo
     repo: https://github.com/piccolo-orm/piccolo
     description: An async query builder and ORM, which can auto generate Pydantic models from database tables.
-  
+
   - name: Piccolo Admin
     repo: https://github.com/piccolo-orm/piccolo_admin
     description: An admin interface powered by Pydantic. Automatically generate forms using Pydantic models.
+
+  - name: Starlite
+    repo: https://github.com/Goldziher/starlite
+    description: Flexible ASGI API framework built on top of Starlette and pydantic.
