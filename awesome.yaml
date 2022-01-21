@@ -122,3 +122,8 @@ repositories:
   - name: Starlite
     repo: https://github.com/Goldziher/starlite
     description: Flexible ASGI API framework built on top of Starlette and pydantic.
+
+  - name: Robusta
+    repo: https://github.com/robusta-dev/robusta
+    description: Open source Kubernetes troubleshooting and automation platform.
+
