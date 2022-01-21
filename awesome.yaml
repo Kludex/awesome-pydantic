@@ -125,5 +125,5 @@ repositories:
 
   - name: Robusta
     repo: https://github.com/robusta-dev/robusta
-    description: Open source Kubernetes troubleshooting and automation platform
+    description: Open source Kubernetes troubleshooting and automation platform.
 
