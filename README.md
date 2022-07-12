@@ -79,6 +79,10 @@ Open source Kubernetes troubleshooting and automation platform.
 
 Asynchronous ODM(Object Document Mapper) for MongoDB based on standard python type hints. It's built on top of pydantic for model definition and validation.
 
+## [Redis-OM-Python](https://github.com/redis/redis-om-python) - 317 ✨
+
+Redis OM Python makes it easy to model Redis data in your Python applications.
+
 ## [Djantic](https://github.com/jordaneremieff/djantic) - 263 ✨
 
 Pydantic model support for Django.
