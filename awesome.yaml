@@ -127,3 +127,6 @@ repositories:
     repo: https://github.com/robusta-dev/robusta
     description: Open source Kubernetes troubleshooting and automation platform.
 
+  - name: Redis-OM-Python
+    repo: https://github.com/redis/redis-om-python
+    description: Redis OM Python makes it easy to model Redis data in your Python applications.
