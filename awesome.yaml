@@ -130,3 +130,7 @@ repositories:
   - name: Redis-OM-Python
     repo: https://github.com/redis/redis-om-python
     description: Redis OM Python makes it easy to model Redis data in your Python applications.
+
+  - name: django-pydantic-field
+    repo: https://github.com/surenkov/django-pydantic-field
+    description: Django JSONField with Pydantic models as a Schema. DRF supported.
