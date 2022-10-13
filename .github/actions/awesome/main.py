@@ -1,10 +1,11 @@
+from itertools import groupby
 import os
 from typing import List, Optional
 
 import requests
 import yaml
 from github import Github
-from jinja2 import Template
+from jinja2.environment import Template
 from pydantic import BaseModel, BaseSettings, HttpUrl
 
 
@@ -18,6 +19,7 @@ class Settings(BaseSettings):
 
     class Config:
         case_sensitive = False
+        env_file = ".env"
 
 
 settings = Settings()
@@ -29,6 +31,7 @@ class Repository(BaseModel):
     repo: HttpUrl
     description: str
     stars: Optional[int]
+    category: str
 
 
 class RepositoriesData(BaseModel):
@@ -41,10 +44,10 @@ def read_awesome() -> RepositoriesData:
     return repos
 
 
-def render_readme(data: RepositoriesData) -> str:
+def render_readme(data: dict) -> str:
     with open(settings.template_path, "r") as readme_template:
         template = Template(readme_template.read())
-    return template.render(**data.dict())
+    return template.render({"data": data})
 
 
 def write_readme(text: str) -> None:
@@ -65,9 +68,21 @@ def load_stars(data: RepositoriesData):
             repository.stars = star_count
 
 
-if __name__ == "__main__":
-    data = read_awesome()
-    load_stars(data)
-    data.repositories.sort(key=lambda x: -x.stars)
+def run():
+    awesome = read_awesome()
+    load_stars(awesome)
+    repos = awesome.dict()["repositories"]
+    repos.sort(key=lambda x: x["category"])
+    data = {
+        category: sorted(repo, key=lambda x: -x["stars"])
+        for category, repo in groupby(
+            repos, key=lambda x: x["category"]
+        )
+    }
+
     text_readme = render_readme(data)
     write_readme(text_readme)
+
+
+if __name__ == "__main__":
+    run()
