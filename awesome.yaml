@@ -2,135 +2,169 @@ repositories:
   - name: FastAPI
     repo: https://github.com/tiangolo/fastapi
     description: FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+    category: Web
 
   - name: Django Ninja
     repo: https://github.com/vitalik/django-ninja
     description: Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
+    category: Web
 
   - name: spaCy
     repo: https://github.com/explosion/spaCy
     description: spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
+    category: Machine Learning
 
   - name: ray
     repo: https://github.com/ray-project/ray
     description: Ray provides a simple, universal API for building distributed applications.
+    category: Machine Learning
 
   - name: jina
     repo: https://github.com/jina-ai/jina
     description: Jina is geared towards building search systems for any kind of data, including text, images, audio, video and many more. With the modular design & multi-layer abstraction, you can leverage the efficient patterns to build the system by parts, or chaining them into a Flow for an end-to-end experience.
+    category: Machine Learning
 
   - name: FastMRI
     repo: https://github.com/facebookresearch/fastMRI
     description: fastMRI is a collaborative research project from Facebook AI Research (FAIR) and NYU Langone Health to investigate the use of AI to make MRI scans faster.
+    category: Machine Learning
 
   - name: ODMantic
     repo: https://github.com/art049/odmantic
     description: Asynchronous ODM(Object Document Mapper) for MongoDB based on standard python type hints. It's built on top of pydantic for model definition and validation.
+    category: Object Mapping
 
   - name: Strawberry GraphQL
     repo: https://github.com/strawberry-graphql/strawberry
     description: Python GraphQL library based on dataclasses.
+    category: Utilities
 
   - name: Transformers
     repo: https://github.com/huggingface/transformers
     description: State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
+    category: Object Mapping
 
   - name: Flask Pydantic
     repo: https://github.com/bauerji/flask_pydantic
     description: Flask extension for integration of the awesome pydantic package with Flask.
+    category: Web
 
   - name: SpecTree
     repo: https://github.com/0b01001001/spectree
     description: API spec validator and OpenAPI document generator for Python web frameworks (Flask, Falcon, Starlette).
+    category: Web
 
   - name: Ormar
     repo: https://github.com/collerek/ormar
     description: Ormar is an async ORM that was written with FastAPI in mind and uses pydantic validation. It bridges FastAPI with pydantic, as ormar models can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.
+    category: Object Mapping
 
   - name: HttpRunner
     repo: https://github.com/httprunner/httprunner
     description: HttpRunner is a simple & elegant, yet powerful HTTP(S) testing framework.
+    category: Utilities
 
   - name: Opyrator
     repo: https://github.com/ml-tooling/opyrator
     description: Turns your machine learning code into microservices with web API, interactive GUI, and more.
+    category: Machine Learning
 
   - name: datamodel-code-generator
     repo: https://github.com/koxudaxi/datamodel-code-generator
     description: Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, and YAML data sources.
+    category: Utilities
 
   - name: Pydantic PyCharm Plugin
     repo: https://github.com/koxudaxi/pydantic-pycharm-plugin
     description: A JetBrains PyCharm plugin for pydantic.
+    category: Utilities
 
   - name: Djantic
     repo: https://github.com/jordaneremieff/djantic
     description: Pydantic model support for Django.
+    category: Object Mapping
 
   - name: Beanie
     repo: https://github.com/roman-right/beanie
     description: Beanie - is an Asynchronous Python object-document mapper (ODM) for MongoDB, based on Motor and Pydantic.
+    category: Object Mapping
 
   - name: Goodconf
     repo: https://github.com/lincolnloop/goodconf
     description: A thin wrapper over Pydantic's settings management. Allows you to define configuration variables and load them from environment or JSON/YAML file. Also generates initial configuration files and documentation for your defined configuration.
+    category: Object Mapping
 
   - name: erdantic
     repo: https://github.com/drivendataorg/erdantic
     description: Entity relationship diagrams for Python data model classes like Pydantic.
+    category: Utilities
 
   - name: autodoc_pydantic
     repo: https://github.com/mansenfranzen/autodoc_pydantic
     description: Seamlessly integrate pydantic models in your Sphinx documentation.
+    category: Utilities
 
   - name: jsf
     repo: https://github.com/ghandic/jsf
     description: Creates fake JSON files from a JSON schema.
+    category: Utilities
 
   - name: Quart-Schema
     repo: https://gitlab.com/pgjones/quart-schema
     description: Quart-Schema is a Quart extension that provides schema validation and auto-generated API documentation.
+    category: Web
 
   - name: pydantic-i18n
     repo: https://github.com/boardpack/pydantic-i18n
     description: An extension to support an i18n for the pydantic error messages.
+    category: Utilities
 
   - name: pydantic-aioredis
     repo: https://github.com/andrewthetechie/pydantic-aioredis
     description: A simple Declarative ORM for Redis using Pydantic Models and aioredis
+    category: Object Mapping
 
   - name: ZenML
     repo: https://github.com/zenml-io/zenml
     description: MLOps framework to create reproducible ML pipelines for production machine learning.
+    category: Machine Learning
 
   - name: Pydantic-Factories
     repo: https://github.com/Goldziher/pydantic-factories
     description: Pydantic based factories to generate testing data.
+    category: Utilities
 
   - name: Mongox
     repo: https://github.com/aminalaee/mongox
     description: Familiar async MongoDB ODM based on Pydantic and Motor.
+    category: Object Mapping
 
   - name: Piccolo
     repo: https://github.com/piccolo-orm/piccolo
     description: An async query builder and ORM, which can auto generate Pydantic models from database tables.
+    category: Object Mapping
 
   - name: Piccolo Admin
     repo: https://github.com/piccolo-orm/piccolo_admin
     description: An admin interface powered by Pydantic. Automatically generate forms using Pydantic models.
+    category: Web
 
   - name: Starlite
     repo: https://github.com/Goldziher/starlite
     description: Flexible ASGI API framework built on top of Starlette and pydantic.
+    category: Web
 
   - name: Robusta
     repo: https://github.com/robusta-dev/robusta
     description: Open source Kubernetes troubleshooting and automation platform.
+    category: Utilities
 
   - name: Redis-OM-Python
     repo: https://github.com/redis/redis-om-python
     description: Redis OM Python makes it easy to model Redis data in your Python applications.
+    category: Object Mapping
 
   - name: django-pydantic-field
     repo: https://github.com/surenkov/django-pydantic-field
     description: Django JSONField with Pydantic models as a Schema. DRF supported.
+    category: Object Mapping
