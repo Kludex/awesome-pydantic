@@ -42,7 +42,7 @@ repositories:
   - name: Transformers
     repo: https://github.com/huggingface/transformers
     description: State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
-    category: Object Mapping
+    category: Machine Learning
 
   - name: Flask Pydantic
     repo: https://github.com/bauerji/flask_pydantic
@@ -92,7 +92,7 @@ repositories:
   - name: Goodconf
     repo: https://github.com/lincolnloop/goodconf
     description: A thin wrapper over Pydantic's settings management. Allows you to define configuration variables and load them from environment or JSON/YAML file. Also generates initial configuration files and documentation for your defined configuration.
-    category: Object Mapping
+    category: Utilities
 
   - name: erdantic
     repo: https://github.com/drivendataorg/erdantic
