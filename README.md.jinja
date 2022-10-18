@@ -4,11 +4,23 @@
 
 These packages have not been vetted or approved by the pydantic team.
 
-Feel free to add your own package here by creating a PR. You just need to add an entry to the [awesome.yaml](./awesome.yaml) file.
-
 {% for category, repos in data.items() %}
 ## {{ category }}
   {% for repo in repos %}
 - [{{ repo.name }}]({{ repo.repo }}) 🌟({{ repo.stars }}) - {{ repo.description }}
   {% endfor %}
 {% endfor %}
+
+## Contributing
+
+Feel free to add your own package here by creating a PR. You just need to add an entry to the end line of [awesome.yaml](./awesome.yaml) file.
+For example:
+
+```yaml
+- name: FastAPI
+  repo: https://github.com/tiangolo/fastapi
+  description: FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+  category: Web
+```
+
+Then it will automate reordered by repository stars and category.
