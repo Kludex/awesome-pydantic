@@ -27,9 +27,9 @@ g = Github(settings.github_token)
 
 
 class Repository(BaseModel):
-    name: str
+    name: Optional[str]
     repo: HttpUrl
-    description: str
+    description: Optional[str]
     stars: Optional[int]
     category: str
 
@@ -55,22 +55,31 @@ def write_readme(text: str) -> None:
         readme_file.write(text)
 
 
-def load_stars(data: RepositoriesData):
+def load_repo_data(data: RepositoriesData):
     for repository in data.repositories:
         if "github" in repository.repo.host:
             repo = g.get_repo(repository.repo.path.strip("/"))
             repository.stars = repo.stargazers_count
+            if not repository.name:
+                repository.name = repo.name
+            if not repository.description:
+                repository.description = repo.description
         elif "gitlab" in repository.repo.host:
             name = repository.repo.path.strip("/").replace("/", "%2F")
             url = f"https://gitlab.com/api/v4/projects/{name}"
             res = requests.get(url, params={"access_token": settings.gitlab_token})
             star_count = res.json()["star_count"]
             repository.stars = star_count
+            if not repository.name:
+                repository.name = res.json()["name"]
+            if not repository.description:
+                repository.description = res.json()["description"]
+
 
 
 def run():
     awesome = read_awesome()
-    load_stars(awesome)
+    load_repo_data(awesome)
     repos = awesome.dict()["repositories"]
     repos.sort(key=lambda x: x["category"])
     data = {
