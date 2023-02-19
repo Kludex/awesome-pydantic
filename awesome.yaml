@@ -168,3 +168,8 @@ repositories:
     repo: https://github.com/surenkov/django-pydantic-field
     description: Django JSONField with Pydantic models as a Schema. DRF supported.
     category: Object Mapping
+    
+  - name: pydantic-sqs
+    repo: https://github.com/andrewthetechie/pydantic-sqs
+    description: Send and receive pydantic models via AWS SQS
+    category: Object Mapping
