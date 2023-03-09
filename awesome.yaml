@@ -173,3 +173,8 @@ repositories:
     repo: https://github.com/andrewthetechie/pydantic-sqs
     description: Send and receive pydantic models via AWS SQS
     category: Object Mapping
+ 
+  - name: pydantic-enhanced-serializer
+    repo: https://github.com/adamsussman/pydantic-enhanced-serializer
+    description: Better pydantic object output for apis including selectable fields and smart object expansions.
+    category: Web
