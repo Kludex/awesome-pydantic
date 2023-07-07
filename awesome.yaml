@@ -178,3 +178,8 @@ repositories:
     repo: https://github.com/adamsussman/pydantic-enhanced-serializer
     description: Better pydantic object output for apis including selectable fields and smart object expansions.
     category: Web
+
+  - name: turms
+    repo: https://github.com/jhnnsrs/turms
+    description: GraphQL code generator that generates pydantic models from GraphQL documents
+    category: Web
