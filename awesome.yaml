@@ -183,3 +183,8 @@ repositories:
     repo: https://github.com/jhnnsrs/turms
     description: GraphQL code generator that generates pydantic models from GraphQL documents
     category: Web
+
+  - name: SQLModel
+    repo: https://github.com/tiangolo/sqlmodel
+    description: SQLModel is a library for interacting with SQL databases from Python code, with Python objects.
+    category: Object Mapping
