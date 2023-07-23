@@ -188,3 +188,13 @@ repositories:
     repo: https://github.com/tiangolo/sqlmodel
     description: SQLModel is a library for interacting with SQL databases from Python code, with Python objects.
     category: Object Mapping
+
+  - name: Propan
+    repo: https://github.com/Lancetnik/Propan
+    description: Propan is a powerful and easy-to-use Python framework for building event-driven applications that interact with any MQ Broker.
+    category: Web
+
+  - name: FastDepends
+    repo: https://github.com/Lancetnik/FastDepends
+    description: FastDepends - FastAPI Dependency Injection system extracted from FastAPI and cleared of all HTTP logic.
+    category: Object Mapping
