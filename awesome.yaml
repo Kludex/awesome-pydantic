@@ -149,8 +149,8 @@ repositories:
     description: An admin interface powered by Pydantic. Automatically generate forms using Pydantic models.
     category: Web
 
-  - name: Starlite
-    repo: https://github.com/Goldziher/starlite
+  - name: Litestar (before Starlite)
+    repo: https://github.com/litestar-org/litestar
     description: Flexible ASGI API framework built on top of Starlette and pydantic.
     category: Web
 
