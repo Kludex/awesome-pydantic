@@ -76,7 +76,7 @@ repositories:
 
   - name: easyconfig
     repo: https://github.com/spacemanspiff2007/easyconfig
-    description: Easy application configuration with yaml files and pydantic models. Allows creation of default configurations with value description as comments, environment variable expansion and support for docker secrets. Also has support for reloading values on the fly e.g. in combination with a file watcher. Works with normal pydantic models and pydantic settings.
+    description: Easy application configuration with yaml files and pydantic models. Allows automatic creation of default configuration files with value descriptions as comments. Additionally has environment variable expansion and support for docker secrets. Can also has support for reloading values on the fly e.g. in combination with a file watcher. Works with normal pydantic models and pydantic settings.
     category: Utilities
 
   - name: Pydantic PyCharm Plugin
