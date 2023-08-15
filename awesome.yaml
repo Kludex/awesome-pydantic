@@ -74,6 +74,11 @@ repositories:
     description: Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, and YAML data sources.
     category: Utilities
 
+  - name: easyconfig
+    repo: https://github.com/spacemanspiff2007/easyconfig
+    description: Easy application configuration with yaml files and pydantic models. Allows automatic creation of default configuration files with value descriptions as comments. Additionally has environment variable expansion and support for docker secrets. Can also has support for reloading values on the fly e.g. in combination with a file watcher. Works with normal pydantic models and pydantic settings.
+    category: Utilities
+
   - name: Pydantic PyCharm Plugin
     repo: https://github.com/koxudaxi/pydantic-pycharm-plugin
     description: A JetBrains PyCharm plugin for pydantic.
