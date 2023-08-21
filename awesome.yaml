@@ -5,7 +5,7 @@ repositories:
     category: Web
 
   - name: Esmerald
-    repo: https://esmerald.dev
+    repo: https://github.com/dymmond/esmerald
     description: Full suite python web framework with results and design in mind based on Python type hints and pydantic. 
     category: Web
 
@@ -60,7 +60,7 @@ repositories:
     category: Web
 
   - name: Edgy
-    repo: https://edgy.tarsild.io
+    repo: https://github.com/tarsil/edgy
     description: Edgy is a modern, full suite complete ORM fully built on the top of Pydantic v2. All you need in a ORM in one place. From migrations, to automatic validations.
     category: Object Mapping
 
