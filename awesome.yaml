@@ -4,6 +4,11 @@ repositories:
     description: FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
     category: Web
 
+  - name: Esmerald
+    repo: https://esmerald.dev
+    description: Full suite python web framework with results and design in mind based on Python type hints and pydantic. 
+    category: Web
+
   - name: Django Ninja
     repo: https://github.com/vitalik/django-ninja
     description: Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
@@ -53,6 +58,11 @@ repositories:
     repo: https://github.com/0b01001001/spectree
     description: API spec validator and OpenAPI document generator for Python web frameworks (Flask, Falcon, Starlette).
     category: Web
+
+  - name: Edgy
+    repo: https://edgy.tarsild.io
+    description: Edgy is a modern, full suite complete ORM fully built on the top of Pydantic v2. All you need in a ORM in one place. From migrations, to automatic validations.
+    category: Object Mapping
 
   - name: Ormar
     repo: https://github.com/collerek/ormar
