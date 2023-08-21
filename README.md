@@ -23,6 +23,8 @@ These packages have not been vetted or approved by the pydantic team.
   
 
 ## Object Mapping
+
+- [Edgy](https://edgy.tarsild.io) - Edgy is a modern, full suite complete ORM fully built on the top of Pydantic v2. All you need in a ORM in one place. 
   
 - [SQLModel](https://github.com/tiangolo/sqlmodel) 🌟(10452) - SQLModel is a library for interacting with SQL databases from Python code, with Python objects.
   
@@ -79,6 +81,8 @@ These packages have not been vetted or approved by the pydantic team.
 ## Web
   
 - [FastAPI](https://github.com/tiangolo/fastapi) 🌟(61545) - FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+
+- [Esmerald](https://esmerald.dev) - Full suite python web framework with results and design in mind based on Python type hints and pydantic. 
   
 - [Django Ninja](https://github.com/vitalik/django-ninja) 🌟(4789) - Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
   
