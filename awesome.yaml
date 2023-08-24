@@ -213,3 +213,8 @@ repositories:
     repo: https://github.com/Lancetnik/FastDepends
     description: FastDepends - FastAPI Dependency Injection system extracted from FastAPI and cleared of all HTTP logic.
     category: Object Mapping
+
+  - name: pydantic-xml
+    repo: https://github.com/dapper91/pydantic-xml
+    description: Pydantic xml extension
+    category: Utilities
