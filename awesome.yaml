@@ -219,7 +219,6 @@ repositories:
     description: Pydantic xml extension
     category: Utilities
 
-repositories:
   - name: FastStream
     repo: https://github.com/airtai/faststream
     description: FastStream simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.
