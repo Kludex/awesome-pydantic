@@ -228,3 +228,4 @@ repositories:
   - name: DocArray
     repo: https://github.com/docarray/docarray
     description: Represent, send, store and search multimodal data based on Pydantic. Compatible with Multiple Vector Databases 
+    category: Machine Learning
