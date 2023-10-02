@@ -227,5 +227,4 @@ repositories:
 
   - name: DocArray
     repo: https://github.com/docarray/docarray
-    description: ORM for multiple Vector database with support for Multi-Modal data all based on type hint and pydantic
-    category: Machine Learning
+    description: Represent, send, store and search multimodal data based on Pydantic. Compatible with Multiple Vector Database 
