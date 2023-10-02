@@ -223,3 +223,9 @@ repositories:
     repo: https://github.com/airtai/faststream
     description: FastStream simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.
     category: Web
+
+
+  - name: DocArray
+    repo: https://github.com/docarray/docarray
+    description: ORM for multiple Vector database with support for Multi-Modal data all based on type hint and pydantic
+    category: Machine Learning
