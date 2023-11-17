@@ -234,3 +234,9 @@ repositories:
     repo: https://github.com/Neoteroi/BlackSheep
     description: BlackSheep is an asynchronous web framework to build event based web applications with Python. It is inspired by Flask, ASP.NET Core, and the work by Yury Selivanov.
     category: Web
+
+  - repo: https://github.com/jxnl/instructor
+    category: Machine Learning
+    # optional
+    name: Instructor
+    description: Controlling OpenAI Function Calling via Pydantic Models
