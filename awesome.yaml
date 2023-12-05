@@ -246,3 +246,10 @@ repositories:
     # optional
     name: Laktory
     description: A DataOps framework for building Databricks lakehouse.
+
+  - repo: https://github.com/okube-ai/settus
+    category: Utilities
+    # optional
+    name: Settus
+    description: Settings management using Pydantic Settings and extended to secrets from Azure Keyvault, Databricks secrets, AWS Secrets Manager and GCP Secrets Manager
+  
