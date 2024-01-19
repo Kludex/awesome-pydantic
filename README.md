@@ -89,6 +89,8 @@ These packages have not been vetted or approved by the pydantic team.
 - [easyconfig](https://github.com/spacemanspiff2007/easyconfig) 🌟(5) - Easy application configuration with yaml files and pydantic models. Allows automatic creation of default configuration files with value descriptions as comments. Additionally has environment variable expansion and support for docker secrets. Can also has support for reloading values on the fly e.g. in combination with a file watcher. Works with normal pydantic models and pydantic settings.
   
 - [Settus](https://github.com/okube-ai/settus) 🌟(1) - Settings management using Pydantic Settings and extended to secrets from Azure Keyvault, Databricks secrets, AWS Secrets Manager and GCP Secrets Manager
+
+- [pydantic-resolve](https://github.com/allmonday/pydantic-resolve) 🌟(36) - A small yet powerful tool to extend your pydantic schema with no pain, and resolve all your descendants automatically.
   
 
 ## Web
