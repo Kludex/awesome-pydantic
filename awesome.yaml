@@ -253,7 +253,7 @@ repositories:
     name: Settus
     description: Settings management using Pydantic Settings and extended to secrets from Azure Keyvault, Databricks secrets, AWS Secrets Manager and GCP Secrets Manager
   
-  - name: Pydantic-resolve
-    repo: https://github.com/allmonday/pydantic-resolve
-    description: A small yet powerful tool to extend your pydantic schema, and resolve all descendants automatically.
+  - repo: https://github.com/allmonday/pydantic-resolve
     category: Utilities
+    name: Pydantic-resolve
+    description: A small yet powerful tool to extend your pydantic schema, and resolve all descendants automatically.
