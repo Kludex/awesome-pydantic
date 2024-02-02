@@ -7,33 +7,33 @@ These packages have not been vetted or approved by the pydantic team.
 
 ## Data Engineering
   
-- [Laktory](https://github.com/opencubes-ai/laktory) 🌟(4) - A DataOps framework for building Databricks lakehouse.
+- [Laktory](https://github.com/opencubes-ai/laktory) 🌟(5) - A DataOps framework for building Databricks lakehouse.
   
 
 ## Machine Learning
   
-- [Transformers](https://github.com/huggingface/transformers) 🌟(119578) - State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
+- [Transformers](https://github.com/huggingface/transformers) 🌟(119585) - State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
   
-- [ray](https://github.com/ray-project/ray) 🌟(29698) - Ray provides a simple, universal API for building distributed applications.
+- [ray](https://github.com/ray-project/ray) 🌟(29703) - Ray provides a simple, universal API for building distributed applications.
   
-- [spaCy](https://github.com/explosion/spaCy) 🌟(28139) - spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
+- [spaCy](https://github.com/explosion/spaCy) 🌟(28140) - spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
   
 - [jina](https://github.com/jina-ai/jina) 🌟(19638) - Jina is geared towards building search systems for any kind of data, including text, images, audio, video and many more. With the modular design & multi-layer abstraction, you can leverage the efficient patterns to build the system by parts, or chaining them into a Flow for an end-to-end experience.
   
-- [ZenML](https://github.com/zenml-io/zenml) 🌟(3473) - MLOps framework to create reproducible ML pipelines for production machine learning.
+- [ZenML](https://github.com/zenml-io/zenml) 🌟(3474) - MLOps framework to create reproducible ML pipelines for production machine learning.
   
-- [Instructor](https://github.com/jxnl/instructor) 🌟(3260) - Controlling OpenAI Function Calling via Pydantic Models
+- [Instructor](https://github.com/jxnl/instructor) 🌟(3265) - Controlling OpenAI Function Calling via Pydantic Models
   
 - [Opyrator](https://github.com/ml-tooling/opyrator) 🌟(2991) - Turns your machine learning code into microservices with web API, interactive GUI, and more.
   
-- [DocArray](https://github.com/docarray/docarray) 🌟(2644) - Represent, send, store and search multimodal data based on Pydantic. Compatible with Multiple Vector Databases
+- [DocArray](https://github.com/docarray/docarray) 🌟(2645) - Represent, send, store and search multimodal data based on Pydantic. Compatible with Multiple Vector Databases
   
 - [FastMRI](https://github.com/facebookresearch/fastMRI) 🌟(1202) - fastMRI is a collaborative research project from Facebook AI Research (FAIR) and NYU Langone Health to investigate the use of AI to make MRI scans faster.
   
 
 ## Object Mapping
   
-- [SQLModel](https://github.com/tiangolo/sqlmodel) 🌟(12150) - SQLModel is a library for interacting with SQL databases from Python code, with Python objects.
+- [SQLModel](https://github.com/tiangolo/sqlmodel) 🌟(12154) - SQLModel is a library for interacting with SQL databases from Python code, with Python objects.
   
 - [Beanie](https://github.com/roman-right/beanie) 🌟(1661) - Beanie - is an Asynchronous Python object-document mapper (ODM) for MongoDB, based on Motor and Pydantic.
   
@@ -47,7 +47,7 @@ These packages have not been vetted or approved by the pydantic team.
   
 - [Djantic](https://github.com/jordaneremieff/djantic) 🌟(417) - Pydantic model support for Django.
   
-- [FastDepends](https://github.com/Lancetnik/FastDepends) 🌟(152) - FastDepends - FastAPI Dependency Injection system extracted from FastAPI and cleared of all HTTP logic.
+- [FastDepends](https://github.com/Lancetnik/FastDepends) 🌟(153) - FastDepends - FastAPI Dependency Injection system extracted from FastAPI and cleared of all HTTP logic.
   
 - [Mongox](https://github.com/aminalaee/mongox) 🌟(120) - Familiar async MongoDB ODM based on Pydantic and Motor.
   
@@ -64,17 +64,17 @@ These packages have not been vetted or approved by the pydantic team.
   
 - [HttpRunner](https://github.com/httprunner/httprunner) 🌟(3925) - HttpRunner is a simple & elegant, yet powerful HTTP(S) testing framework.
   
-- [Strawberry GraphQL](https://github.com/strawberry-graphql/strawberry) 🌟(3646) - Python GraphQL library based on dataclasses.
+- [Strawberry GraphQL](https://github.com/strawberry-graphql/strawberry) 🌟(3648) - Python GraphQL library based on dataclasses.
   
 - [Robusta](https://github.com/robusta-dev/robusta) 🌟(2330) - Open source Kubernetes troubleshooting and automation platform.
   
-- [datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator) 🌟(2097) - Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, and YAML data sources.
+- [datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator) 🌟(2099) - Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, and YAML data sources.
   
-- [Pydantic-Factories](https://github.com/Goldziher/pydantic-factories) 🌟(814) - Pydantic based factories to generate testing data.
+- [Pydantic-Factories](https://github.com/Goldziher/pydantic-factories) 🌟(815) - Pydantic based factories to generate testing data.
   
 - [Pydantic PyCharm Plugin](https://github.com/koxudaxi/pydantic-pycharm-plugin) 🌟(396) - A JetBrains PyCharm plugin for pydantic.
   
-- [erdantic](https://github.com/drivendataorg/erdantic) 🌟(229) - Entity relationship diagrams for Python data model classes like Pydantic.
+- [erdantic](https://github.com/drivendataorg/erdantic) 🌟(230) - Entity relationship diagrams for Python data model classes like Pydantic.
   
 - [jsf](https://github.com/ghandic/jsf) 🌟(142) - Creates fake JSON files from a JSON schema.
   
@@ -95,15 +95,15 @@ These packages have not been vetted or approved by the pydantic team.
 
 ## Web
   
-- [FastAPI](https://github.com/tiangolo/fastapi) 🌟(67581) - FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+- [FastAPI](https://github.com/tiangolo/fastapi) 🌟(67589) - FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
   
-- [Django Ninja](https://github.com/vitalik/django-ninja) 🌟(5789) - Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
+- [Django Ninja](https://github.com/vitalik/django-ninja) 🌟(5790) - Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
   
-- [Litestar (before Starlite)](https://github.com/litestar-org/litestar) 🌟(3878) - Flexible ASGI API framework built on top of Starlette and pydantic.
+- [Litestar (before Starlite)](https://github.com/litestar-org/litestar) 🌟(3879) - Flexible ASGI API framework built on top of Starlette and pydantic.
   
-- [BlackSheep](https://github.com/Neoteroi/BlackSheep) 🌟(1608) - BlackSheep is an asynchronous web framework to build event based web applications with Python. It is inspired by Flask, ASP.NET Core, and the work by Yury Selivanov.
+- [BlackSheep](https://github.com/Neoteroi/BlackSheep) 🌟(1609) - BlackSheep is an asynchronous web framework to build event based web applications with Python. It is inspired by Flask, ASP.NET Core, and the work by Yury Selivanov.
   
-- [FastStream](https://github.com/airtai/faststream) 🌟(1512) - FastStream simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.
+- [FastStream](https://github.com/airtai/faststream) 🌟(1513) - FastStream simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.
   
 - [Propan](https://github.com/Lancetnik/Propan) 🌟(463) - Propan is a powerful and easy-to-use Python framework for building event-driven applications that interact with any MQ Broker.
   
