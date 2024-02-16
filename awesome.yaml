@@ -81,7 +81,7 @@ repositories:
 
   - name: datamodel-code-generator
     repo: https://github.com/koxudaxi/datamodel-code-generator
-    description: Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, GraphQL schema, and YAML data sources.
+    description: Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, GraphQL Schema, and YAML data sources.
     category: Utilities
 
   - name: easyconfig
