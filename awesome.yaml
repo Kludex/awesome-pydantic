@@ -257,3 +257,8 @@ repositories:
     category: Utilities
     name: Pydantic-resolve
     description: A small yet powerful tool to extend your pydantic schema, and resolve all descendants automatically.
+
+  - repo: https://github.com/radeklat/settings-doc
+    category: Utilities
+    name: Settings Doc
+    description: A command line tool for generating Markdown documentation and .env files from pydantic_settings.BaseSettings.
