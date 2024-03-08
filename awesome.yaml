@@ -257,3 +257,8 @@ repositories:
     category: Utilities
     name: Pydantic-resolve
     description: A small yet powerful tool to extend your pydantic schema, and resolve all descendants automatically.
+
+  - repo: https://github.com/experimental-design/bofire
+    category: Machine Learning
+    name: BoFire
+    description: Bayesian Optimization Framework Intended for Real Experiments.
