@@ -57,6 +57,8 @@ These packages have not been vetted or approved by the pydantic team.
   
 - [pydantic-aioredis](https://github.com/andrewthetechie/pydantic-aioredis) 🌟(50) - A simple Declarative ORM for Redis using Pydantic Models and aioredis
   
+- [pydantic-numpy](https://github.com/caniko/pydantic-numpy) 🌟(19) - NumPy typing for Pydantic; `NumpyModel` Pydantic model for numpy arrays for saving and loading numpy files
+  
 - [pydantic-sqs](https://github.com/andrewthetechie/pydantic-sqs) 🌟(2) - Send and receive pydantic models via AWS SQS
   
 
