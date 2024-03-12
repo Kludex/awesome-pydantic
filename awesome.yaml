@@ -258,7 +258,13 @@ repositories:
     name: Pydantic-resolve
     description: A small yet powerful tool to extend your pydantic schema, and resolve all descendants automatically.
 
+  - repo: https://github.com/caniko/pydantic-numpy
+    category: Object Mapping
+    name: pydantic-numpy
+    description: NumPy typing for Pydantic; `NumpyModel` Pydantic model for numpy arrays for saving and loading numpy files
+
   - repo: https://github.com/radeklat/settings-doc
     category: Utilities
     name: Settings Doc
     description: A command line tool for generating Markdown documentation and .env files from pydantic_settings.BaseSettings.
+
