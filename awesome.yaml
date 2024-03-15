@@ -268,3 +268,7 @@ repositories:
     name: Settings Doc
     description: A command line tool for generating Markdown documentation and .env files from pydantic_settings.BaseSettings.
 
+  - repo: https://github.com/sinaatalay/rendercv
+    category: Utilities
+    name: RenderCV
+    description: A LaTeX CV generator from a YAML/JSON input file.
