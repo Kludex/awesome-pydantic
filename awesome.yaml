@@ -272,3 +272,8 @@ repositories:
     category: Utilities
     name: Flake8 Pydantic
     description: A Flake8 plugin to check Pydantic related code. 
+
+  - name: fodantic
+    repo: https://github.com/jpsca/fodantic
+    description: Pydantic-based HTTP forms
+    category: Utilities
