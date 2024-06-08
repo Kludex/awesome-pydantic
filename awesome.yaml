@@ -282,3 +282,8 @@ repositories:
     name: fodantic
     description: Pydantic-based HTTP forms
     category: Utilities
+
+  - repo: https://github.com//ManiMozaffar/aioclock
+    cateogry: Utilities
+    name: AioClock
+    description: Scheduler framework asyncio-based designed for execution of periodic task with dependency injection

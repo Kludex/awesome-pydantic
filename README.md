@@ -89,6 +89,8 @@ These packages have not been vetted or approved by the pydantic team.
 - [Goodconf](https://github.com/lincolnloop/goodconf) 🌟(125) - A thin wrapper over Pydantic's settings management. Allows you to define configuration variables and load them from environment or JSON/YAML file. Also generates initial configuration files and documentation for your defined configuration.
   
 - [pydantic-i18n](https://github.com/boardpack/pydantic-i18n) 🌟(79) - An extension to support an i18n for the pydantic error messages.
+
+- [aioclock](https://github.com/manimozaffar/aioclock) 🌟(66) - Scheduler framework asyncio-based designed for execution of periodic task with dependency injection
   
 - [Settings Doc](https://github.com/radeklat/settings-doc) 🌟(22) - A command line tool for generating Markdown documentation and .env files from pydantic_settings.BaseSettings.
   
