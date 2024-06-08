@@ -273,7 +273,7 @@ repositories:
     name: Flake8 Pydantic
     description: A Flake8 plugin to check Pydantic related code. 
 
-  - repo: https://github.com//Mirascope/mirascope
+  - repo: https://github.com/Mirascope/mirascope
     category: Machine Learning
     name: Mirascope
     description: Pythonic prompt engineering for developers built on Pydantic
