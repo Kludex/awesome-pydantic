@@ -274,11 +274,11 @@ repositories:
     description: A Flake8 plugin to check Pydantic related code. 
 
   - repo: https://github.com//Mirascope/mirascope
-    cateogry: Machine Learning
+    category: Machine Learning
     name: Mirascope
     description: Pythonic prompt engineering for developers built on Pydantic
 
-  - name: fodantic
-    repo: https://github.com/jpsca/fodantic
+  - repo: https://github.com/jpsca/fodantic
+    name: fodantic
     description: Pydantic-based HTTP forms
     category: Utilities
