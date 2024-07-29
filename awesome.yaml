@@ -125,7 +125,7 @@ repositories:
     category: Utilities
 
   - name: Quart-Schema
-    repo: https://gitlab.com/pgjones/quart-schema
+    repo: https://github.com/pgjones/quart-schema
     description: Quart-Schema is a Quart extension that provides schema validation and auto-generated API documentation.
     category: Web
 
