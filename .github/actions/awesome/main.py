@@ -1,15 +1,19 @@
+from __future__ import annotations
+
 from itertools import groupby
-import os
-from typing import List, Optional
+from typing import Any, List, Optional
 
 import requests
 import yaml
 from github import Github
 from jinja2.environment import Template
-from pydantic import BaseModel, BaseSettings, HttpUrl
+from pydantic import BaseModel, HttpUrl
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
+    model_config = SettingsConfigDict(case_sensitive=False, env_file=".env")
+
     template_path: str
     output_path: str
     data_path: str
@@ -17,12 +21,8 @@ class Settings(BaseSettings):
     github_token: str
     gitlab_token: str
 
-    class Config:
-        case_sensitive = False
-        env_file = ".env"
 
-
-settings = Settings()
+settings = Settings()  # type: ignore
 g = Github(settings.github_token)
 
 
@@ -44,7 +44,7 @@ def read_awesome() -> RepositoriesData:
     return repos
 
 
-def render_readme(data: dict) -> str:
+def render_readme(data: dict[str, Any]) -> str:
     with open(settings.template_path, "r") as readme_template:
         template = Template(readme_template.read())
     return template.render({"data": data})
@@ -68,6 +68,7 @@ def load_repo_data(data: RepositoriesData):
             name = repository.repo.path.strip("/").replace("/", "%2F")
             url = f"https://gitlab.com/api/v4/projects/{name}"
             res = requests.get(url, params={"access_token": settings.gitlab_token})
+            assert "star_count" in res.json(), "Invalid GitLab repository"
             star_count = res.json()["star_count"]
             repository.stars = star_count
             if not repository.name:
@@ -80,7 +81,7 @@ def load_repo_data(data: RepositoriesData):
 def run():
     awesome = read_awesome()
     load_repo_data(awesome)
-    repos = awesome.dict()["repositories"]
+    repos = awesome.model_dump()["repositories"]
     repos.sort(key=lambda x: x["category"])
     data = {
         category: sorted(repo, key=lambda x: -x["stars"])
