@@ -6,7 +6,7 @@ repositories:
 
   - name: Esmerald
     repo: https://github.com/dymmond/esmerald
-    description: Full suite python web framework with results and design in mind based on Python type hints and pydantic. 
+    description: Full suite python web framework with results and design in mind based on Python type hints and pydantic.
     category: Web
 
   - name: Django Ninja
@@ -125,7 +125,7 @@ repositories:
     category: Utilities
 
   - name: Quart-Schema
-    repo: https://gitlab.com/pgjones/quart-schema
+    repo: https://github.com/pgjones/quart-schema
     description: Quart-Schema is a Quart extension that provides schema validation and auto-generated API documentation.
     category: Web
 
@@ -183,12 +183,12 @@ repositories:
     repo: https://github.com/surenkov/django-pydantic-field
     description: Django JSONField with Pydantic models as a Schema. DRF supported.
     category: Object Mapping
-    
+
   - name: pydantic-sqs
     repo: https://github.com/andrewthetechie/pydantic-sqs
     description: Send and receive pydantic models via AWS SQS
     category: Object Mapping
- 
+
   - name: pydantic-enhanced-serializer
     repo: https://github.com/adamsussman/pydantic-enhanced-serializer
     description: Better pydantic object output for apis including selectable fields and smart object expansions.
@@ -229,10 +229,9 @@ repositories:
     description: The package to build GraphQL queries from pydantic classes
     category: Web
 
-
   - name: DocArray
     repo: https://github.com/docarray/docarray
-    description: Represent, send, store and search multimodal data based on Pydantic. Compatible with Multiple Vector Databases 
+    description: Represent, send, store and search multimodal data based on Pydantic. Compatible with Multiple Vector Databases
     category: Machine Learning
 
   - name: BlackSheep
@@ -242,23 +241,50 @@ repositories:
 
   - repo: https://github.com/jxnl/instructor
     category: Machine Learning
-    # optional
     name: Instructor
     description: Controlling OpenAI Function Calling via Pydantic Models
-  
+
   - repo: https://github.com/opencubes-ai/laktory
     category: Data Engineering
-    # optional
     name: Laktory
     description: A DataOps framework for building Databricks lakehouse.
 
   - repo: https://github.com/okube-ai/settus
     category: Utilities
-    # optional
     name: Settus
     description: Settings management using Pydantic Settings and extended to secrets from Azure Keyvault, Databricks secrets, AWS Secrets Manager and GCP Secrets Manager
-  
+
   - repo: https://github.com/allmonday/pydantic-resolve
     category: Utilities
     name: Pydantic-resolve
     description: A small yet powerful tool to extend your pydantic schema, and resolve all descendants automatically.
+
+  - repo: https://github.com/caniko/pydantic-numpy
+    category: Object Mapping
+    name: pydantic-numpy
+    description: NumPy typing for Pydantic; `NumpyModel` Pydantic model for numpy arrays for saving and loading numpy files
+
+  - repo: https://github.com/radeklat/settings-doc
+    category: Utilities
+    name: Settings Doc
+    description: A command line tool for generating Markdown documentation and .env files from pydantic_settings.BaseSettings.
+
+  - repo: https://github.com/Viicos/flake8-pydantic
+    category: Utilities
+    name: Flake8 Pydantic
+    description: A Flake8 plugin to check Pydantic related code.
+
+  - repo: https://github.com/Mirascope/mirascope
+    category: Machine Learning
+    name: Mirascope
+    description: Pythonic prompt engineering for developers built on Pydantic
+
+  - repo: https://github.com/jpsca/fodantic
+    category: Utilities
+    name: fodantic
+    description: Pydantic-based HTTP forms
+
+  - repo: https://github.com//ManiMozaffar/aioclock
+    category: Utilities
+    name: AioClock
+    description: Scheduler framework asyncio-based designed for execution of periodic task with dependency injection
