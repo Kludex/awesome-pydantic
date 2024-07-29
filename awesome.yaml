@@ -6,7 +6,7 @@ repositories:
 
   - name: Esmerald
     repo: https://github.com/dymmond/esmerald
-    description: Full suite python web framework with results and design in mind based on Python type hints and pydantic. 
+    description: Full suite python web framework with results and design in mind based on Python type hints and pydantic.
     category: Web
 
   - name: Django Ninja
@@ -183,12 +183,12 @@ repositories:
     repo: https://github.com/surenkov/django-pydantic-field
     description: Django JSONField with Pydantic models as a Schema. DRF supported.
     category: Object Mapping
-    
+
   - name: pydantic-sqs
     repo: https://github.com/andrewthetechie/pydantic-sqs
     description: Send and receive pydantic models via AWS SQS
     category: Object Mapping
- 
+
   - name: pydantic-enhanced-serializer
     repo: https://github.com/adamsussman/pydantic-enhanced-serializer
     description: Better pydantic object output for apis including selectable fields and smart object expansions.
@@ -224,10 +224,9 @@ repositories:
     description: FastStream simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.
     category: Web
 
-
   - name: DocArray
     repo: https://github.com/docarray/docarray
-    description: Represent, send, store and search multimodal data based on Pydantic. Compatible with Multiple Vector Databases 
+    description: Represent, send, store and search multimodal data based on Pydantic. Compatible with Multiple Vector Databases
     category: Machine Learning
 
   - name: BlackSheep
@@ -240,7 +239,7 @@ repositories:
     # optional
     name: Instructor
     description: Controlling OpenAI Function Calling via Pydantic Models
-  
+
   - repo: https://github.com/opencubes-ai/laktory
     category: Data Engineering
     # optional
@@ -252,7 +251,7 @@ repositories:
     # optional
     name: Settus
     description: Settings management using Pydantic Settings and extended to secrets from Azure Keyvault, Databricks secrets, AWS Secrets Manager and GCP Secrets Manager
-  
+
   - repo: https://github.com/allmonday/pydantic-resolve
     category: Utilities
     name: Pydantic-resolve
@@ -271,7 +270,7 @@ repositories:
   - repo: https://github.com/Viicos/flake8-pydantic
     category: Utilities
     name: Flake8 Pydantic
-    description: A Flake8 plugin to check Pydantic related code. 
+    description: A Flake8 plugin to check Pydantic related code.
 
   - repo: https://github.com/Mirascope/mirascope
     category: Machine Learning
@@ -284,6 +283,6 @@ repositories:
     description: Pydantic-based HTTP forms
 
   - repo: https://github.com//ManiMozaffar/aioclock
-    cateogry: Utilities
+    category: Utilities
     name: AioClock
     description: Scheduler framework asyncio-based designed for execution of periodic task with dependency injection

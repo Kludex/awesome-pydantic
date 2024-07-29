@@ -37,6 +37,7 @@ runs:
       shell: bash
 
     - name: Commit README
+      if: github.ref == 'refs/heads/main'
       run: |
         git config --global user.name 'Github Actions'
         git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
