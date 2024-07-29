@@ -1,0 +1,8 @@
+PyYAML==5.3.1
+pydantic
+pydantic-settings
+Jinja2
+PyGithub==1.55
+
+# Lint
+ruff
