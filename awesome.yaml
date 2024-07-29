@@ -279,9 +279,9 @@ repositories:
     description: Pythonic prompt engineering for developers built on Pydantic
 
   - repo: https://github.com/jpsca/fodantic
+    category: Utilities
     name: fodantic
     description: Pydantic-based HTTP forms
-    category: Utilities
 
   - repo: https://github.com//ManiMozaffar/aioclock
     cateogry: Utilities
