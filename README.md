@@ -32,6 +32,8 @@ These packages have not been vetted or approved by the pydantic team.
   
 - [Mirascope](https://github.com/Mirascope/mirascope) 🌟(565) - Pythonic prompt engineering for developers built on Pydantic
   
+- [BoFire](https://github.com/experimental-design/bofire) 🌟(160) - Bayesian Optimization Framework Intended for Real Experiments.
+  
 
 ## Object Mapping
   
