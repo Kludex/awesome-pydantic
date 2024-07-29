@@ -253,6 +253,21 @@ repositories:
     category: Utilities
     name: Settus
     description: Settings management using Pydantic Settings and extended to secrets from Azure Keyvault, Databricks secrets, AWS Secrets Manager and GCP Secrets Manager
+  
+  - repo: https://github.com/SupImDos/pydantic-argparse
+    category: Command-Line Interface
+    name: Pydantic Argparse
+    description: Pydantic Argparse provides declarative typed argument parsing using Pydantic models. (Compatibility with Pydantic V2 still pending)
+
+  - repo: https://github.com/sander76/clipstick
+    category: Command-Line Interface
+    name: Clipstick
+    description: Clipstick creates your cli using Pydantic models. Define a Pydantic model as you would normally do, pass it to `clipstick` and you get a cli including subcommands, nice docstrings and validations based on `typing` and `pydantic` validators.
+
+  - repo: https://github.com/brentyi/tyro
+    category: Command-Line Interface
+    name: Tyro
+    description: Tyro is a tool for generating command-line interfaces and configuration objects in Python. Generates CLI interfaces, populates helptext automatically from defaults, annotations and docstrings, understand nesting of `dataclasses`, `pydantic`, and `attrs` structures, and it supports subcommands and fine-grained configuration via runtime annotations.
 
   - repo: https://github.com/allmonday/pydantic-resolve
     category: Utilities
