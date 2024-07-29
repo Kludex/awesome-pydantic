@@ -27,10 +27,10 @@ g = Github(settings.github_token)
 
 
 class Repository(BaseModel):
-    name: Optional[str]
+    name: str | None = None
     repo: HttpUrl
-    description: Optional[str]
-    stars: Optional[int]
+    description: str | None = None
+    stars: int | None = None
     category: str
 
 
