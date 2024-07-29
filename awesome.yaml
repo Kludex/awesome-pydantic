@@ -81,7 +81,7 @@ repositories:
 
   - name: datamodel-code-generator
     repo: https://github.com/koxudaxi/datamodel-code-generator
-    description: Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, and YAML data sources.
+    description: Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, GraphQL Schema, and YAML data sources.
     category: Utilities
 
   - name: easyconfig
@@ -222,6 +222,11 @@ repositories:
   - name: FastStream
     repo: https://github.com/airtai/faststream
     description: FastStream simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.
+    category: Web
+
+  - name: graphql-query
+    repo: https://github.com/denisart/graphql-query
+    description: The package to build GraphQL queries from pydantic classes
     category: Web
 
   - name: DocArray
