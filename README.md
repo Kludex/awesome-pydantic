@@ -5,6 +5,15 @@
 These packages have not been vetted or approved by the pydantic team.
 
 
+## Command-Line Interface
+  
+- [Tyro](https://github.com/brentyi/tyro) 🌟(442) - Tyro is a tool for generating command-line interfaces and configuration objects in Python. Generates CLI interfaces, populates helptext automatically from defaults, annotations and docstrings, understand nesting of `dataclasses`, `pydantic`, and `attrs` structures, and it supports subcommands and fine-grained configuration via runtime annotations.
+  
+- [Pydantic Argparse](https://github.com/SupImDos/pydantic-argparse) 🌟(95) - Pydantic Argparse provides declarative typed argument parsing using Pydantic models. (Compatibility with Pydantic V2 still pending)
+  
+- [Clipstick](https://github.com/sander76/clipstick) 🌟(22) - Clipstick creates your cli using Pydantic models. Define a Pydantic model as you would normally do, pass it to `clipstick` and you get a cli including subcommands, nice docstrings and validations based on `typing` and `pydantic` validators.
+  
+
 ## Data Engineering
   
 - [Laktory](https://github.com/opencubes-ai/laktory) 🌟(17) - A DataOps framework for building Databricks lakehouse.
