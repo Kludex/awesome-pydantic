@@ -72,7 +72,7 @@ These packages have not been vetted or approved by the pydantic team.
   
 - [Robusta](https://github.com/robusta-dev/robusta) 🌟(2514) - Open source Kubernetes troubleshooting and automation platform.
   
-- [datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator) 🌟(2499) - Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, and YAML data sources.
+- [datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator) 🌟(2499) - Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, GraphQL Schema, and YAML data sources.
   
 - [Pydantic-Factories](https://github.com/Goldziher/pydantic-factories) 🌟(954) - Pydantic based factories to generate testing data.
   
@@ -111,7 +111,7 @@ These packages have not been vetted or approved by the pydantic team.
   
 - [Django Ninja](https://github.com/vitalik/django-ninja) 🌟(6713) - Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
   
-- [Litestar (before Starlite)](https://github.com/litestar-org/litestar) 🌟(5190) - Flexible ASGI API framework built on top of Starlette and pydantic.
+- [Litestar (before Starlite)](https://github.com/litestar-org/litestar) 🌟(5191) - Flexible ASGI API framework built on top of Starlette and pydantic.
   
 - [FastStream](https://github.com/airtai/faststream) 🌟(2227) - FastStream simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.
   
@@ -130,6 +130,8 @@ These packages have not been vetted or approved by the pydantic team.
 - [Quart-Schema](https://github.com/pgjones/quart-schema) 🌟(73) - Quart-Schema is a Quart extension that provides schema validation and auto-generated API documentation.
   
 - [turms](https://github.com/jhnnsrs/turms) 🌟(59) - GraphQL code generator that generates pydantic models from GraphQL documents
+  
+- [graphql-query](https://github.com/denisart/graphql-query) 🌟(53) - The package to build GraphQL queries from pydantic classes
   
 - [pydantic-enhanced-serializer](https://github.com/adamsussman/pydantic-enhanced-serializer) 🌟(4) - Better pydantic object output for apis including selectable fields and smart object expansions.
   
