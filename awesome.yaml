@@ -257,7 +257,7 @@ repositories:
   - repo: https://github.com/SupImDos/pydantic-argparse
     category: Command-Line Interface
     name: Pydantic Argparse
-    description: ``pydantic-argparse`` provides declarative typed argument parsing using Pydantic models. (Compatibility with Pydantic V2 still pending)
+    description: Pydantic Argparse provides declarative typed argument parsing using Pydantic models. (Compatibility with Pydantic V2 still pending)
 
   - repo: https://github.com/sander76/clipstick
     category: Command-Line Interface
