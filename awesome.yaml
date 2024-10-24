@@ -253,7 +253,7 @@ repositories:
     category: Utilities
     name: Settus
     description: Settings management using Pydantic Settings and extended to secrets from Azure Keyvault, Databricks secrets, AWS Secrets Manager and GCP Secrets Manager
-  
+
   - repo: https://github.com/SupImDos/pydantic-argparse
     category: Command-Line Interface
     name: Pydantic Argparse
@@ -308,3 +308,8 @@ repositories:
     category: Utilities
     name: AioClock
     description: Scheduler framework asyncio-based designed for execution of periodic task with dependency injection
+
+  - repo: https://github.com//ManiMozaffar/richapi
+    category: Web
+    name: RichAPI
+    description: Find HTTPExceptions and turn them into documented responses!
