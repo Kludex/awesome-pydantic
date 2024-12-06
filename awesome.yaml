@@ -308,3 +308,13 @@ repositories:
     category: Utilities
     name: AioClock
     description: Scheduler framework asyncio-based designed for execution of periodic task with dependency injection
+
+  - repo: https://github.com/tortoise/tortoise-orm
+    category: Object Mapping
+    name: tortoise-orm
+    description: Familiar asyncio ORM for python, built with relations in mind
+
+  - name: kui
+    repo: https://github.com/abersheeran/kui
+    description: An easy-to-use web framework. Supports both WSGI and ASGI modes. Gevent or asyncio, this is the question.
+    category: Web
