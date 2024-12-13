@@ -9,66 +9,66 @@ These packages have not been vetted or approved by the pydantic team.
   
 - [Tyro](https://github.com/brentyi/tyro) 🌟(542) - Tyro is a tool for generating command-line interfaces and configuration objects in Python. Generates CLI interfaces, populates helptext automatically from defaults, annotations and docstrings, understand nesting of `dataclasses`, `pydantic`, and `attrs` structures, and it supports subcommands and fine-grained configuration via runtime annotations.
   
-- [Pydantic Argparse](https://github.com/SupImDos/pydantic-argparse) 🌟(107) - Pydantic Argparse provides declarative typed argument parsing using Pydantic models. (Compatibility with Pydantic V2 still pending)
+- [Pydantic Argparse](https://github.com/SupImDos/pydantic-argparse) 🌟(108) - Pydantic Argparse provides declarative typed argument parsing using Pydantic models. (Compatibility with Pydantic V2 still pending)
   
 - [Clipstick](https://github.com/sander76/clipstick) 🌟(30) - Clipstick creates your cli using Pydantic models. Define a Pydantic model as you would normally do, pass it to `clipstick` and you get a cli including subcommands, nice docstrings and validations based on `typing` and `pydantic` validators.
   
 
 ## Data Engineering
   
-- [Laktory](https://github.com/opencubes-ai/laktory) 🌟(32) - A DataOps framework for building Databricks lakehouse.
+- [Laktory](https://github.com/opencubes-ai/laktory) 🌟(34) - A DataOps framework for building Databricks lakehouse.
   
 
 ## Machine Learning
   
-- [Transformers](https://github.com/huggingface/transformers) 🌟(135936) - State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
+- [Transformers](https://github.com/huggingface/transformers) 🌟(136202) - State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0.
   
-- [ray](https://github.com/ray-project/ray) 🌟(34314) - Ray provides a simple, universal API for building distributed applications.
+- [ray](https://github.com/ray-project/ray) 🌟(34402) - Ray provides a simple, universal API for building distributed applications.
   
-- [spaCy](https://github.com/explosion/spaCy) 🌟(30402) - spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
+- [spaCy](https://github.com/explosion/spaCy) 🌟(30439) - spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
   
-- [jina](https://github.com/jina-ai/jina) 🌟(21163) - Jina is geared towards building search systems for any kind of data, including text, images, audio, video and many more. With the modular design & multi-layer abstraction, you can leverage the efficient patterns to build the system by parts, or chaining them into a Flow for an end-to-end experience.
+- [jina](https://github.com/jina-ai/jina) 🌟(21174) - Jina is geared towards building search systems for any kind of data, including text, images, audio, video and many more. With the modular design & multi-layer abstraction, you can leverage the efficient patterns to build the system by parts, or chaining them into a Flow for an end-to-end experience.
   
-- [Instructor](https://github.com/jxnl/instructor) 🌟(8451) - Controlling OpenAI Function Calling via Pydantic Models
+- [Instructor](https://github.com/jxnl/instructor) 🌟(8537) - Controlling OpenAI Function Calling via Pydantic Models
   
-- [ZenML](https://github.com/zenml-io/zenml) 🌟(4187) - MLOps framework to create reproducible ML pipelines for production machine learning.
+- [ZenML](https://github.com/zenml-io/zenml) 🌟(4253) - MLOps framework to create reproducible ML pipelines for production machine learning.
   
-- [Opyrator](https://github.com/ml-tooling/opyrator) 🌟(3108) - Turns your machine learning code into microservices with web API, interactive GUI, and more.
+- [Opyrator](https://github.com/ml-tooling/opyrator) 🌟(3113) - Turns your machine learning code into microservices with web API, interactive GUI, and more.
   
-- [DocArray](https://github.com/docarray/docarray) 🌟(2992) - Represent, send, store and search multimodal data based on Pydantic. Compatible with Multiple Vector Databases
+- [DocArray](https://github.com/docarray/docarray) 🌟(2998) - Represent, send, store and search multimodal data based on Pydantic. Compatible with Multiple Vector Databases
   
-- [FastMRI](https://github.com/facebookresearch/fastMRI) 🌟(1357) - fastMRI is a collaborative research project from Facebook AI Research (FAIR) and NYU Langone Health to investigate the use of AI to make MRI scans faster.
+- [FastMRI](https://github.com/facebookresearch/fastMRI) 🌟(1361) - fastMRI is a collaborative research project from Facebook AI Research (FAIR) and NYU Langone Health to investigate the use of AI to make MRI scans faster.
   
-- [Mirascope](https://github.com/Mirascope/mirascope) 🌟(774) - Pythonic prompt engineering for developers built on Pydantic
+- [Mirascope](https://github.com/Mirascope/mirascope) 🌟(797) - Pythonic prompt engineering for developers built on Pydantic
   
-- [BoFire](https://github.com/experimental-design/bofire) 🌟(238) - Bayesian Optimization Framework Intended for Real Experiments.
+- [BoFire](https://github.com/experimental-design/bofire) 🌟(240) - Bayesian Optimization Framework Intended for Real Experiments.
   
 
 ## Object Mapping
   
-- [SQLModel](https://github.com/tiangolo/sqlmodel) 🌟(14731) - SQLModel is a library for interacting with SQL databases from Python code, with Python objects.
+- [SQLModel](https://github.com/tiangolo/sqlmodel) 🌟(14788) - SQLModel is a library for interacting with SQL databases from Python code, with Python objects.
   
-- [Beanie](https://github.com/roman-right/beanie) 🌟(2093) - Beanie - is an Asynchronous Python object-document mapper (ODM) for MongoDB, based on Motor and Pydantic.
+- [Beanie](https://github.com/roman-right/beanie) 🌟(2100) - Beanie - is an Asynchronous Python object-document mapper (ODM) for MongoDB, based on Motor and Pydantic.
   
-- [Ormar](https://github.com/collerek/ormar) 🌟(1681) - Ormar is an async ORM that was written with FastAPI in mind and uses pydantic validation. It bridges FastAPI with pydantic, as ormar models can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.
+- [Ormar](https://github.com/collerek/ormar) 🌟(1685) - Ormar is an async ORM that was written with FastAPI in mind and uses pydantic validation. It bridges FastAPI with pydantic, as ormar models can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.
   
-- [Piccolo](https://github.com/piccolo-orm/piccolo) 🌟(1460) - An async query builder and ORM, which can auto generate Pydantic models from database tables.
+- [Piccolo](https://github.com/piccolo-orm/piccolo) 🌟(1462) - An async query builder and ORM, which can auto generate Pydantic models from database tables.
   
-- [Redis-OM-Python](https://github.com/redis/redis-om-python) 🌟(1132) - Redis OM Python makes it easy to model Redis data in your Python applications.
+- [Redis-OM-Python](https://github.com/redis/redis-om-python) 🌟(1138) - Redis OM Python makes it easy to model Redis data in your Python applications.
   
-- [ODMantic](https://github.com/art049/odmantic) 🌟(1074) - Asynchronous ODM(Object Document Mapper) for MongoDB based on standard python type hints. It's built on top of pydantic for model definition and validation.
+- [ODMantic](https://github.com/art049/odmantic) 🌟(1079) - Asynchronous ODM(Object Document Mapper) for MongoDB based on standard python type hints. It's built on top of pydantic for model definition and validation.
   
 - [Djantic](https://github.com/jordaneremieff/djantic) 🌟(459) - Pydantic model support for Django.
   
-- [FastDepends](https://github.com/Lancetnik/FastDepends) 🌟(321) - FastDepends - FastAPI Dependency Injection system extracted from FastAPI and cleared of all HTTP logic.
+- [FastDepends](https://github.com/Lancetnik/FastDepends) 🌟(322) - FastDepends - FastAPI Dependency Injection system extracted from FastAPI and cleared of all HTTP logic.
   
-- [Edgy](https://github.com/tarsil/edgy) 🌟(209) - Edgy is a modern, full suite complete ORM fully built on the top of Pydantic v2. All you need in a ORM in one place. From migrations, to automatic validations.
+- [Edgy](https://github.com/tarsil/edgy) 🌟(210) - Edgy is a modern, full suite complete ORM fully built on the top of Pydantic v2. All you need in a ORM in one place. From migrations, to automatic validations.
+  
+- [django-pydantic-field](https://github.com/surenkov/django-pydantic-field) 🌟(123) - Django JSONField with Pydantic models as a Schema. DRF supported.
   
 - [Mongox](https://github.com/aminalaee/mongox) 🌟(122) - Familiar async MongoDB ODM based on Pydantic and Motor.
   
-- [django-pydantic-field](https://github.com/surenkov/django-pydantic-field) 🌟(120) - Django JSONField with Pydantic models as a Schema. DRF supported.
-  
-- [pydantic-aioredis](https://github.com/andrewthetechie/pydantic-aioredis) 🌟(55) - A simple Declarative ORM for Redis using Pydantic Models and aioredis
+- [pydantic-aioredis](https://github.com/andrewthetechie/pydantic-aioredis) 🌟(56) - A simple Declarative ORM for Redis using Pydantic Models and aioredis
   
 - [pydantic-numpy](https://github.com/caniko/pydantic-numpy) 🌟(37) - NumPy typing for Pydantic; `NumpyModel` Pydantic model for numpy arrays for saving and loading numpy files
   
@@ -79,25 +79,25 @@ These packages have not been vetted or approved by the pydantic team.
   
 - [HttpRunner](https://github.com/httprunner/httprunner) 🌟(4078) - HttpRunner is a simple & elegant, yet powerful HTTP(S) testing framework.
   
-- [Strawberry GraphQL](https://github.com/strawberry-graphql/strawberry) 🌟(4044) - Python GraphQL library based on dataclasses.
+- [Strawberry GraphQL](https://github.com/strawberry-graphql/strawberry) 🌟(4049) - Python GraphQL library based on dataclasses.
   
-- [datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator) 🌟(2809) - Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, GraphQL Schema, and YAML data sources.
+- [datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator) 🌟(2819) - Pydantic model generator for easy conversion of JSON, OpenAPI, JSON Schema, GraphQL Schema, and YAML data sources.
   
-- [Robusta](https://github.com/robusta-dev/robusta) 🌟(2625) - Open source Kubernetes troubleshooting and automation platform.
+- [Robusta](https://github.com/robusta-dev/robusta) 🌟(2629) - Open source Kubernetes troubleshooting and automation platform.
   
-- [Pydantic-Factories](https://github.com/Goldziher/pydantic-factories) 🌟(1069) - Pydantic based factories to generate testing data.
+- [Pydantic-Factories](https://github.com/Goldziher/pydantic-factories) 🌟(1074) - Pydantic based factories to generate testing data.
   
-- [Pydantic PyCharm Plugin](https://github.com/koxudaxi/pydantic-pycharm-plugin) 🌟(461) - A JetBrains PyCharm plugin for pydantic.
+- [Pydantic PyCharm Plugin](https://github.com/koxudaxi/pydantic-pycharm-plugin) 🌟(462) - A JetBrains PyCharm plugin for pydantic.
   
-- [erdantic](https://github.com/drivendataorg/erdantic) 🌟(347) - Entity relationship diagrams for Python data model classes like Pydantic.
+- [erdantic](https://github.com/drivendataorg/erdantic) 🌟(348) - Entity relationship diagrams for Python data model classes like Pydantic.
   
-- [Pydantic-resolve](https://github.com/allmonday/pydantic-resolve) 🌟(212) - A small yet powerful tool to extend your pydantic schema, and resolve all descendants automatically.
+- [Pydantic-resolve](https://github.com/allmonday/pydantic-resolve) 🌟(214) - A small yet powerful tool to extend your pydantic schema, and resolve all descendants automatically.
   
-- [jsf](https://github.com/ghandic/jsf) 🌟(170) - Creates fake JSON files from a JSON schema.
+- [jsf](https://github.com/ghandic/jsf) 🌟(171) - Creates fake JSON files from a JSON schema.
   
-- [AioClock](https://github.com//ManiMozaffar/aioclock) 🌟(168) - Scheduler framework asyncio-based designed for execution of periodic task with dependency injection
+- [AioClock](https://github.com//ManiMozaffar/aioclock) 🌟(170) - Scheduler framework asyncio-based designed for execution of periodic task with dependency injection
   
-- [pydantic-xml](https://github.com/dapper91/pydantic-xml) 🌟(166) - Pydantic xml extension
+- [pydantic-xml](https://github.com/dapper91/pydantic-xml) 🌟(169) - Pydantic xml extension
   
 - [autodoc_pydantic](https://github.com/mansenfranzen/autodoc_pydantic) 🌟(160) - Seamlessly integrate pydantic models in your Sphinx documentation.
   
@@ -105,7 +105,7 @@ These packages have not been vetted or approved by the pydantic team.
   
 - [pydantic-i18n](https://github.com/boardpack/pydantic-i18n) 🌟(83) - An extension to support an i18n for the pydantic error messages.
   
-- [Settings Doc](https://github.com/radeklat/settings-doc) 🌟(35) - A command line tool for generating Markdown documentation and .env files from pydantic_settings.BaseSettings.
+- [Settings Doc](https://github.com/radeklat/settings-doc) 🌟(36) - A command line tool for generating Markdown documentation and .env files from pydantic_settings.BaseSettings.
   
 - [Flake8 Pydantic](https://github.com/Viicos/flake8-pydantic) 🌟(15) - A Flake8 plugin to check Pydantic related code.
   
@@ -118,33 +118,33 @@ These packages have not been vetted or approved by the pydantic team.
 
 ## Web
   
-- [FastAPI](https://github.com/tiangolo/fastapi) 🌟(78356) - FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+- [FastAPI](https://github.com/tiangolo/fastapi) 🌟(78545) - FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
   
-- [Django Ninja](https://github.com/vitalik/django-ninja) 🌟(7387) - Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
+- [Django Ninja](https://github.com/vitalik/django-ninja) 🌟(7421) - Django + Pydantic = Fast, Async-ready, OpenAPI, type hints based framework for building APIs.
   
-- [Litestar (before Starlite)](https://github.com/litestar-org/litestar) 🌟(5666) - Flexible ASGI API framework built on top of Starlette and pydantic.
+- [Litestar (before Starlite)](https://github.com/litestar-org/litestar) 🌟(5698) - Flexible ASGI API framework built on top of Starlette and pydantic.
   
-- [FastStream](https://github.com/airtai/faststream) 🌟(3211) - FastStream simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.
+- [FastStream](https://github.com/airtai/faststream) 🌟(3238) - FastStream simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.
   
 - [BlackSheep](https://github.com/Neoteroi/BlackSheep) 🌟(1897) - BlackSheep is an asynchronous web framework to build event based web applications with Python. It is inspired by Flask, ASP.NET Core, and the work by Yury Selivanov.
   
-- [Propan](https://github.com/Lancetnik/Propan) 🌟(485) - Propan is a powerful and easy-to-use Python framework for building event-driven applications that interact with any MQ Broker.
+- [Propan](https://github.com/Lancetnik/Propan) 🌟(484) - Propan is a powerful and easy-to-use Python framework for building event-driven applications that interact with any MQ Broker.
   
-- [Flask Pydantic](https://github.com/bauerji/flask_pydantic) 🌟(368) - Flask extension for integration of the awesome pydantic package with Flask.
+- [Flask Pydantic](https://github.com/bauerji/flask_pydantic) 🌟(369) - Flask extension for integration of the awesome pydantic package with Flask.
   
 - [SpecTree](https://github.com/0b01001001/spectree) 🌟(325) - API spec validator and OpenAPI document generator for Python web frameworks (Flask, Falcon, Starlette).
   
 - [Esmerald](https://github.com/dymmond/esmerald) 🌟(324) - Full suite python web framework with results and design in mind based on Python type hints and pydantic.
   
-- [Piccolo Admin](https://github.com/piccolo-orm/piccolo_admin) 🌟(323) - An admin interface powered by Pydantic. Automatically generate forms using Pydantic models.
+- [Piccolo Admin](https://github.com/piccolo-orm/piccolo_admin) 🌟(324) - An admin interface powered by Pydantic. Automatically generate forms using Pydantic models.
   
-- [RichAPI](https://github.com//ManiMozaffar/richapi) 🌟(145) - Find HTTPExceptions and turn them into documented responses!
+- [RichAPI](https://github.com//ManiMozaffar/richapi) 🌟(146) - Find HTTPExceptions and turn them into documented responses!
   
-- [Quart-Schema](https://github.com/pgjones/quart-schema) 🌟(82) - Quart-Schema is a Quart extension that provides schema validation and auto-generated API documentation.
+- [Quart-Schema](https://github.com/pgjones/quart-schema) 🌟(83) - Quart-Schema is a Quart extension that provides schema validation and auto-generated API documentation.
   
-- [turms](https://github.com/jhnnsrs/turms) 🌟(61) - GraphQL code generator that generates pydantic models from GraphQL documents
+- [turms](https://github.com/jhnnsrs/turms) 🌟(63) - GraphQL code generator that generates pydantic models from GraphQL documents
   
-- [graphql-query](https://github.com/denisart/graphql-query) 🌟(60) - The package to build GraphQL queries from pydantic classes
+- [graphql-query](https://github.com/denisart/graphql-query) 🌟(62) - The package to build GraphQL queries from pydantic classes
   
 - [pydantic-enhanced-serializer](https://github.com/adamsussman/pydantic-enhanced-serializer) 🌟(5) - Better pydantic object output for apis including selectable fields and smart object expansions.
   
