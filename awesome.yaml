@@ -318,3 +318,8 @@ repositories:
     category: Web
     name: PydanticRPC
     description: PydanticRPC enables you to quickly expose your Pydantic models via gRPC/Connect RPC services without having to manually write any protobuf files.
+
+  - repo: https://github.com/mitchelllisle/sparkdantic
+    category: Data Engineering
+    name: sparkdantic
+    description: A library that converts Pydantic models to PySpark schemas (StructType), facilitating schema validation in PySpark pipelines.
