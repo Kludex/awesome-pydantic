@@ -323,3 +323,8 @@ repositories:
     category: Data Engineering
     name: sparkdantic
     description: A library that converts Pydantic models to PySpark schemas (StructType), facilitating schema validation in PySpark pipelines.
+
+  - repo: https://github.com/shcherbak-ai/contextgem
+    category: Machine Learning
+    name: ContextGem
+    description: A free, open-source LLM framework that makes it radically easier to extract structured data and insights from documents with minimal code.
