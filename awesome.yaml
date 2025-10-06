@@ -329,7 +329,7 @@ repositories:
     name: ContextGem
     description: A free, open-source LLM framework that makes it radically easier to extract structured data and insights from documents with minimal code.
 
-  - name: fastapi-router-viz
-    repo: https://github.com/allmonday/fastapi-router-viz
-    description: Visualize the FastAPI's routes and relationships between pydantic models.
+  - name: fastapi-voyager
+    repo: https://github.com/allmonday/fastapi-voyager
+    description: Explore your router and response models interactively.
     category: Utilities
