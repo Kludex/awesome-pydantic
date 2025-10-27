@@ -328,3 +328,8 @@ repositories:
     category: Machine Learning
     name: ContextGem
     description: A free, open-source LLM framework that makes it radically easier to extract structured data and insights from documents with minimal code.
+
+  - name: fastapi-voyager
+    repo: https://github.com/allmonday/fastapi-voyager
+    description: Explore your router and response models interactively.
+    category: Utilities
