@@ -333,3 +333,8 @@ repositories:
     repo: https://github.com/allmonday/fastapi-voyager
     description: Explore your router and response models interactively.
     category: Utilities
+
+  - name: SuperJWT
+    repo: https://github.com/ixunio/superjwt
+    description: A modern and lightning-fast implementation of JWT (JSON Web Token) for Python. With powerful Pydantic validation features.
+    category: Web
