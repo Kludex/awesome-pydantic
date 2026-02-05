@@ -333,3 +333,8 @@ repositories:
     repo: https://github.com/allmonday/fastapi-voyager
     description: Explore your router and response models interactively.
     category: Utilities
+
+  - repo: https://github.com/jochemloedeman/env-example
+    category: Utilities
+    name: env-example
+    description: A command line tool for creating a .env.example file for all Pydantic settings classes in your project.
