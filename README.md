@@ -77,6 +77,8 @@ These packages have not been vetted or approved by the pydantic team.
 - [pydantic-numpy](https://github.com/caniko/pydantic-numpy) 🌟(50) - NumPy typing for Pydantic; `NumpyModel` Pydantic model for numpy arrays for saving and loading numpy files
   
 - [pydantic-sqs](https://github.com/andrewthetechie/pydantic-sqs) 🌟(4) - Send and receive pydantic models via AWS SQS
+
+- [bubus](https://github.com/pirate/bbus) 🌟(94) - A modern, production-ready event bus library that works between Python and JS using Pydantic and Zod.
   
 
 ## Utilities
@@ -122,7 +124,8 @@ These packages have not been vetted or approved by the pydantic team.
 - [Settus](https://github.com/okube-ai/settus) 🌟(5) - Settings management using Pydantic Settings and extended to secrets from Azure Keyvault, Databricks secrets, AWS Secrets Manager and GCP Secrets Manager
   
 - [env-example](https://github.com/jochemloedeman/env-example) 🌟(1) - A command line tool for creating a .env.example file for all Pydantic settings classes in your project.
-  
+
+- [abx-pkg](https://github.com/ArchiveBox/abx-pkg) 🌟(21) - A Pydantic-based interface for managing runtime package dependencies with pkg managers like apt/brew/npm/pip/cargo.
 
 ## Web
   
