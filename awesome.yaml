@@ -338,3 +338,8 @@ repositories:
     category: Utilities
     name: env-example
     description: A command line tool for creating a .env.example file for all Pydantic settings classes in your project.
+
+  - repo: https://github.com/Upsonic/Upsonic
+    category: Agent Frameworks
+    name: Upsonic
+    description: A framework for building AI agents that uses Pydantic models to enforce structured outputs, ensuring type-safe responses and reliable data extraction.
