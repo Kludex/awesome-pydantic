@@ -338,3 +338,8 @@ repositories:
     category: Utilities
     name: env-example
     description: A command line tool for creating a .env.example file for all Pydantic settings classes in your project.
+
+  - repo: https://github.com/vladkesler/initrunner
+    category: Machine Learning
+    name: InitRunner
+    description: Define AI agents in YAML and run them as CLI commands, API servers, or daemons. Built on PydanticAI with RAG, memory, and multi-agent orchestration.
