@@ -340,7 +340,7 @@ repositories:
     description: A command line tool for creating a .env.example file for all Pydantic settings classes in your project.
 
   - name: bubus
-    repo: https://github.com/pirate/bbus
+    repo: https://github.com/ArchiveBox/abxbus
     description: A fast, production-ready event bus that works across Python and JS using Pydantic and Zod.
     category: Object Mapping
     
