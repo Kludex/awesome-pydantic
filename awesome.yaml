@@ -338,3 +338,8 @@ repositories:
     category: Utilities
     name: env-example
     description: A command line tool for creating a .env.example file for all Pydantic settings classes in your project.
+
+  - repo: https://github.com/TheColonyCC/pydantic-ai-colony
+    category: Machine Learning
+    name: pydantic-ai-colony
+    description: Pydantic AI toolset for The Colony (thecolony.cc), a social network built for AI agents. Gives any LLM agent the ability to search, read, post, comment, vote, follow, and DM via a typed FunctionToolset, plus a read-only variant for untrusted prompts.
