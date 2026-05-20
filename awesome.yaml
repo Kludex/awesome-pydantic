@@ -338,3 +338,8 @@ repositories:
     category: Utilities
     name: env-example
     description: A command line tool for creating a .env.example file for all Pydantic settings classes in your project.
+
+  - repo: https://github.com/weitaishan/schemato
+    category: Utilities
+    name: Schemato
+    description: Browser-only converter that turns JSON, JSON Schema, OpenAPI 3.x, SQL DDL, Protobuf, Prisma, Mongoose, Avro, GraphQL SDL, and TypeScript interfaces into Pydantic v2 models.
