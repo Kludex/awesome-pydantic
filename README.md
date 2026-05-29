@@ -48,6 +48,9 @@ These packages have not been vetted or approved by the pydantic team.
 - [BoFire](https://github.com/experimental-design/bofire) 🌟(382) - Bayesian Optimization Framework Intended for Real Experiments.
   
 
+- [dd-agents](https://github.com/zoharbabin/due-diligence-agents) 🌟(16) - M&A due diligence with 13 AI agents using Pydantic v2 models for all data schemas, finding validation, and structured LLM outputs across a 38-step async pipeline.
+
+
 ## Object Mapping
   
 - [SQLModel](https://github.com/tiangolo/sqlmodel) 🌟(17981) - SQLModel is a library for interacting with SQL databases from Python code, with Python objects.
