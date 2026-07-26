@@ -343,3 +343,13 @@ repositories:
     category: Utilities
     name: Schemato
     description: Browser-only converter that turns JSON, JSON Schema, OpenAPI 3.x, SQL DDL, Protobuf, Prisma, Mongoose, Avro, GraphQL SDL, and TypeScript interfaces into Pydantic v2 models.
+
+  - repo: https://github.com/isatimur/book-mash
+    category: Machine Learning
+    name: book-mash
+    description: A multi-judge LLM measurement engine for book manuscripts. Six judges score prose on craft (humanness, voice, usefulness) and epistemic (evidence density, claim defensibility, redundancy) dimensions, built on pydantic-ai.
+
+  - repo: https://github.com/isatimur/mash-core
+    category: Machine Learning
+    name: mash-core
+    description: Provider-agnostic LLM-judge core built on pydantic-ai, providing the JudgeDim/JudgeScore contract, cost-aware model routing across Anthropic, OpenRouter, and OpenAI-compatible providers, and retry-with-backoff for judge calls.
